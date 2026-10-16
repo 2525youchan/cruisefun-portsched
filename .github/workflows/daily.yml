@@ -72,10 +72,13 @@ jobs:
             gh issue create --title "入港予定の違い $D" --body-file body.md
           fi
 
-      - name: 取得した元ファイル（14日だけ保存）
+      - name: 取得の結果（14日だけ保存）
         if: always()
         uses: actions/upload-artifact@v6
         with:
           name: work-${{ github.run_id }}
-          path: work
+          # 公開リポジトリなので、各港の元ファイル（PDF など）の写しは載せない
+          path: |
+            work
+            !work/raw/**
           retention-days: 14
