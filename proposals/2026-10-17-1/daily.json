@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-17",
+ "diffs": [],
+ "fetch_ng": {},
+ "zero_rows": [],
+ "page_err": [],
+ "import_rows": 462,
+ "gone": [],
+ "changed": [
+  [
+   {
+    "date": "2026-10-18",
+    "end": "2026-10-18",
+    "port": "博多港",
+    "ship": "ビジオ",
+    "in": "14:00",
+    "out": "22:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-16"
+   },
+   {
+    "date": "2026-10-18",
+    "end": "2026-10-18",
+    "port": "博多港",
+    "ship": "ビジオ",
+    "in": "13:30",
+    "out": "22:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-17"
+   }
+  ]
+ ],
+ "added": 295,
+ "clash": [
+  {
+   "date": "2027-01-14",
+   "ship": "ADORA FLORA CITY",
+   "calls": [
+    "那覇港 01-13 15:30〜01-14 14:00",
+    "石垣港 01-14 13:00〜01-14 22:00"
+   ]
+  }
+ ],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "ビジオ"
+ ],
+ "notify": 2
+}
