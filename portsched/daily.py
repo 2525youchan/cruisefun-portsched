@@ -40,15 +40,35 @@ def get(url, **kw):
     return r
 
 
-def site_pages(work):
-    """review 投稿（港・船のページ）の一覧。公開の REST API から読む"""
+SNAPSHOT = os.path.join(HERE, '..', 'config', 'site_pages.json')
+
+
+def site_pages(work, notes):
+    """review 投稿（港・船のページ）の一覧。
+    公開の REST API から読む。サーバーが海外からの REST API を断る（GitHub Actions では 403）ときは、
+    config/site_pages.json（手元で取った一覧）を使い、サイトマップにあって一覧にないページだけ、ページの見出し（h1＝題名）を読んで足す"""
     out, page = [], 1
-    while True:
-        r = get(f'{SITE}/wp-json/wp/v2/review', params={'per_page': 100, 'page': page, '_fields': 'id,slug,title'})
-        out += [{'id': p['id'], 'slug': p['slug'], 'title': p['title']['rendered']} for p in r.json()]
-        if page >= int(r.headers.get('X-WP-TotalPages', 1)):
-            break
-        page += 1
+    try:
+        while True:
+            r = get(f'{SITE}/wp-json/wp/v2/review', params={'per_page': 100, 'page': page, '_fields': 'id,slug,title'})
+            out += [{'id': p['id'], 'slug': p['slug'], 'title': p['title']['rendered']} for p in r.json()]
+            if page >= int(r.headers.get('X-WP-TotalPages', 1)):
+                break
+            page += 1
+    except requests.RequestException:
+        out = json.load(open(SNAPSHOT, encoding='utf-8'))
+        known = {p['slug'] for p in out}
+        sm = get(f'{SITE}/wp-sitemap-posts-review-1.xml').text
+        slugs = re.findall(r'<loc>' + re.escape(SITE) + r'/review/([^/<]+)/</loc>', sm)
+        if not slugs:
+            notes.append('サイトマップから港・船のページが読めない')
+        for s in slugs:
+            if s in known:
+                continue
+            h1 = BeautifulSoup(get(f'{SITE}/review/{s}/').text, 'html.parser').select_one('h1')
+            if h1 is not None:
+                out.append({'id': 0, 'slug': s, 'title': h1.get_text().strip()})
+                notes.append(f'新しいページ {s}（{h1.get_text().strip()}）：config/site_pages.json に足すと速くなる')
     common.save_json(os.path.join(work, 'site_pages.json'), out)
     return out
 
@@ -103,7 +123,8 @@ def main():
     dec = json.load(open(CONFIG, encoding='utf-8')) if os.path.exists(CONFIG) else {}
     ignore = dec.get('ignore', [])
 
-    site_pages(work)
+    page_err = []
+    site_pages(work, page_err)
     ports, ships = C.load_site(os.path.join(work, 'site_pages.json'))
     ship_by_slug = {v[2]: v[1] for v in ships.values()}
 
@@ -142,7 +163,7 @@ def main():
             cover[sp[2]] = max(cover.get(sp[2], ''), r['end'])
 
     # サイトの港ページ（公式の予定表がある港だけ）
-    site, page_err, boxes = [], [], 0
+    site, boxes = [], 0
     for slug in sorted(cover):
         name = next(v[1] for v in ports.values() if v[2] == slug)
         try:
