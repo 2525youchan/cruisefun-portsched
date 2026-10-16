@@ -1,0 +1,70 @@
+# 毎月20日 6:00（日本時間）：来月分の公式の入港予定の一覧と、取り込み案を Issue にする。
+# 承認のあと「ツール ＞ 公式の入港予定」で確認だけ → 保存（ここではサイトに書き込まない）。
+name: monthly-list
+
+on:
+  schedule:
+    - cron: '0 21 19 * *'   # UTC 19日 21:00 = 日本時間 20日 6:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: portsched
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 準備
+        run: |
+          tzutil //s "Tokyo Standard Time"
+          echo "C:/Program Files/Git/mingw64/bin" >> "$GITHUB_PATH"
+          python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: 取得と来月の一覧
+        env:
+          PYTHONUTF8: '1'
+        run: |
+          python -I portsched/daily.py work
+          M=$(date -d "$(date +%Y-%m-01) +1 month" +%Y-%m)
+          echo "[]" > work/empty.json
+          python -I portsched/compare.py work "$M" work/site_pages.json work/empty.json work/empty.json
+          echo "M=$M" >> "$GITHUB_ENV"
+
+      - name: 結果を残して Issue を作る
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          D=$(date +%Y-%m-%d)
+          mkdir -p "proposals/$D"
+          cp work/import.json work/report.json "work/month_$M.md" "work/month_$M.json" "proposals/$D/"
+          git config user.name "portsched-bot"
+          git config user.email "portsched-bot@users.noreply.github.com"
+          git add proposals
+          git commit -q -m "monthly $M" || true
+          git push -q
+          {
+            echo "来月（$M）の公式の入港予定です。**サイトはまだ変えていません。**"
+            echo
+            echo "- 一覧：https://github.com/${GITHUB_REPOSITORY}/blob/main/proposals/$D/month_$M.md"
+            echo "- 取り込み案（今日〜92日後）：https://github.com/${GITHUB_REPOSITORY}/blob/main/proposals/$D/import.json"
+            echo "- 承認のあと「ツール ＞ 公式の入港予定」で確認だけ → 保存（Claude に頼めます）"
+            echo
+            head -c 55000 "work/month_$M.md"
+          } > body.md
+          gh issue create --title "来月の入港予定 $M" --body-file body.md

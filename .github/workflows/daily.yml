@@ -1,0 +1,81 @@
+# 毎朝 5:30（日本時間）：各港の公式の予定表を取得して、サイトの港ページの表示と比べる。
+# 違いが前の日と変わったときだけ Issue を作る（GitHub からメールが届く）。サイトには何も書き込まない。
+name: daily-check
+
+on:
+  schedule:
+    - cron: '30 20 * * *'   # UTC 20:30 = 日本時間 5:30
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: portsched
+  cancel-in-progress: false
+
+jobs:
+  check:
+    # 手元（Windows）と同じ pdftotext（Git for Windows に入っている版）で PDF を読むため Windows を使う
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 準備
+        run: |
+          tzutil //s "Tokyo Standard Time"
+          echo "C:/Program Files/Git/mingw64/bin" >> "$GITHUB_PATH"
+          python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: 取得と比較
+        env:
+          PYTHONUTF8: '1'
+        run: |
+          pdftotext -v 2>&1 | head -1
+          python -I portsched/daily.py work
+
+      - name: 結果を残して、変わっていれば Issue を作る
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONUTF8: '1'
+        run: |
+          set -e
+          D=$(date +%Y-%m-%d)
+          FP=$(cat work/fingerprint)
+          OLD=$(cat state/daily_fingerprint 2>/dev/null || echo none)
+          N=$(python -c "import json;d=json.load(open('work/daily.json',encoding='utf-8'));print(len(d['diffs'])+len(d['fetch_ng'])+len(d['zero_rows'])+len(d['page_err']))")
+          echo "fingerprint $FP (old $OLD), items $N"
+          mkdir -p "proposals/$D"
+          cp work/daily.md work/daily.json work/import.json work/report.json "proposals/$D/"
+          echo "$FP" > state/daily_fingerprint
+          git config user.name "portsched-bot"
+          git config user.email "portsched-bot@users.noreply.github.com"
+          git add proposals state
+          git commit -q -m "daily $D" || true
+          git push -q
+          if [ "$FP" != "$OLD" ] && [ "$N" != "0" ]; then
+            {
+              cat work/daily.md
+              echo
+              echo "取り込み案：https://github.com/${GITHUB_REPOSITORY}/blob/main/proposals/$D/import.json"
+              echo "実行の記録：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            } > body.md
+            gh issue create --title "入港予定の違い $D" --body-file body.md
+          fi
+
+      - name: 取得した元ファイル（14日だけ保存）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: work-${{ github.run_id }}
+          path: work
+          retention-days: 14
