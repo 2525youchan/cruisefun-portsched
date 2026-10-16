@@ -1,55 +1,26 @@
 {
  "date": "2026-10-17",
- "diffs": [
-  {
-   "kind": "time",
-   "date": "2026-10-18",
-   "end": "2026-10-18",
-   "port": "博多港",
-   "ship": "VISIO",
-   "official": [
-    "13:30",
-    "22:00"
-   ],
-   "site": [
-    "14:00",
-    "22:00",
-    "2026-10-18"
-   ],
-   "src": "hakata",
-   "note": ""
-  },
-  {
-   "kind": "add",
-   "date": "2026-10-22",
-   "end": "2026-10-22",
-   "port": "博多港",
-   "ship": "アドラ・メディタラニア",
-   "official": [
-    "08:00",
-    "17:00"
-   ],
-   "site": null,
-   "src": "hakata",
-   "note": ""
-  },
-  {
-   "kind": "add",
-   "date": "2026-10-26",
-   "end": "2026-10-26",
-   "port": "博多港",
-   "ship": "アドラ・メディタラニア",
-   "official": [
-    "08:00",
-    "17:00"
-   ],
-   "site": null,
-   "src": "hakata",
-   "note": ""
-  }
- ],
+ "diffs": [],
  "fetch_ng": {},
  "zero_rows": [],
  "page_err": [],
- "import_rows": 463
+ "import_rows": 462,
+ "gone": [],
+ "changed": [],
+ "added": 15,
+ "clash": [
+  {
+   "date": "2027-01-14",
+   "ship": "ADORA FLORA CITY",
+   "calls": [
+    "那覇港 01-13 15:30〜01-14 14:00",
+    "石垣港 01-14 13:00〜01-14 22:00"
+   ]
+  }
+ ],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "ビジオ"
+ ],
+ "notify": 1
 }

@@ -14,10 +14,10 @@
     "bytes": 111171,
     "sha256": "90ad81719649da417bc14e50bf0c109a558f141ac1aa13aa3a0de023989e2d26",
     "saved": "93da64cabf_2026.html",
-    "at": "2026-10-17T00:46:28"
+    "at": "2026-10-17T07:57:10"
    }
   ],
-  "sec": 2.3
+  "sec": 1.5
  },
  "tokyo": {
   "ok": true,
@@ -40,10 +40,10 @@
    {
     "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
     "status": 200,
-    "bytes": 520617,
-    "sha256": "568adb5bf643c22566760e9e2b135fc0ff536a9b56d9b915ed6a2779f060c8d9",
+    "bytes": 519072,
+    "sha256": "f5008455221fa2f82b34eda658434b1028363fc1ab6ea6153a5b23299f2fab46",
     "saved": "770447b37f_cruise",
-    "at": "2026-10-17T00:46:29"
+    "at": "2026-10-17T07:57:11"
    },
    {
     "url": "https://wabi-japan-east-api.analysis.windows.net/public/reports/d715d5a6-c629-4e37-ba97-2ced1fcf68a6/modelsAndExploration?preferReadOnlySession=true",
@@ -51,19 +51,19 @@
     "bytes": 558794,
     "sha256": "bf2711e9253b7e930eee1a5ba5d519fa3a3195e206e41f248a34a95d07ec049b",
     "saved": "b758b26220_modelsAndExploration_preferReadOnlySession_true",
-    "at": "2026-10-17T00:46:30"
+    "at": "2026-10-17T07:57:12"
    },
    {
     "url": "https://wabi-japan-east-api.analysis.windows.net/public/reports/querydata?synchronous=true",
     "method": "POST",
     "status": 200,
     "bytes": 38578,
-    "sha256": "0eb04141dcf4d436a8ef16b5e437285a5bf1e49f38ce5da3afc9044488e91e07",
+    "sha256": "7d2319cef4f6ca7cadbef5c3d9bc7d2ff2cc2c5a52cbebb56e498a0e6f48c3a8",
     "saved": "8687e3a1ef_querydata.json",
-    "at": "2026-10-17T00:46:31"
+    "at": "2026-10-17T07:57:13"
    }
   ],
-  "sec": 2.1
+  "sec": 2.0
  },
  "shimizu": {
   "ok": true,
@@ -78,9 +78,9 @@
     "url": "https://www.shimizu-port.jp/shipinfo_R08.html",
     "status": 200,
     "bytes": 39069,
-    "sha256": "bba4f2b45932290d3d5b4991f1e107eb19b79a41ff965443e6172ce84958e50e",
+    "sha256": "4ef32ed92b879cfbf9a7a009850f3b749c3c9ff10480dd2d351a3ed48e70a63f",
     "saved": "441cccc2ea_shipinfo_R08.html",
-    "at": "2026-10-17T00:46:33"
+    "at": "2026-10-17T07:57:14"
    },
    {
     "url": "https://www.shimizu-port.jp/attach.php/73686970696e666f5f523038/save/0/0/%E3%80%90261013%E7%8F%BE%E5%9C%A8%E3%80%91HP%E7%94%A8R8%E5%B9%B4%E5%BA%A6%E5%AF%84%E6%B8%AF%E4%BA%88%E5%AE%9A10-11%E6%9C%88%281%29.pdf",
@@ -88,10 +88,10 @@
     "bytes": 208666,
     "sha256": "b2e64a7c12827cf999f00c24ad3b10811291d57835a393537f2d36175b017733",
     "saved": "0eceb1842c__E3_80_90261013_E7_8F_BE_E5_9C_A8_E3_80_91HP_E7_94_A8R8_E5_B",
-    "at": "2026-10-17T00:46:34"
+    "at": "2026-10-17T07:57:15"
    }
   ],
-  "sec": 3.9
+  "sec": 2.8
  },
  "osaka": {
   "ok": true,
@@ -108,7 +108,7 @@
     "bytes": 66221,
     "sha256": "677f15144d4c433ce9b2e5e19495944fd3f3b2700e910ba336f3a227ec587ad9",
     "saved": "704830abd9_calender.html",
-    "at": "2026-10-17T00:46:36"
+    "at": "2026-10-17T07:57:17"
    },
    {
     "url": "https://www.oppa.or.jp/wp-content/uploads/2026/10/2026cruise1015.pdf",
@@ -116,10 +116,10 @@
     "bytes": 450170,
     "sha256": "712359545a0e678db7ed895c444e741ab43b653c634f977cfc289ce8c5f8bea7",
     "saved": "893b87d834_2026cruise1015.pdf",
-    "at": "2026-10-17T00:46:37"
+    "at": "2026-10-17T07:57:18"
    }
   ],
-  "sec": 2.6
+  "sec": 2.5
  },
  "kobe": {
   "ok": true,
@@ -136,10 +136,10 @@
     "bytes": 54784,
     "sha256": "aeb68b9893a279e116d396ea25d05cde139f45c4f461717b64d2a0c593920c30",
     "saved": "144c5105ff_index",
-    "at": "2026-10-17T00:46:39"
+    "at": "2026-10-17T07:57:19"
    }
   ],
-  "sec": 1.4
+  "sec": 0.9
  },
  "kanazawa": {
   "ok": true,
@@ -156,10 +156,10 @@
     "bytes": 92362,
     "sha256": "f4296892d4ff2d4910bb8e02ee2cd744f31a4dfffb8a04ba6e4adf16bc9473b1",
     "saved": "97a1df195b_index",
-    "at": "2026-10-17T00:46:40"
+    "at": "2026-10-17T07:57:19"
    }
   ],
-  "sec": 1.0
+  "sec": 0.5
  },
  "sakaiminato": {
   "ok": true,
@@ -176,7 +176,7 @@
     "bytes": 54703,
     "sha256": "935df301b8bb48767f641fe63fd727fe81eb6565f91209eeb05e27f03ea6e56c",
     "saved": "35f6e82cea_pcs",
-    "at": "2026-10-17T00:46:41"
+    "at": "2026-10-17T07:57:20"
    },
    {
     "url": "https://www.sakai-tottori.jp/wp-content/uploads/2026/10/d2e7809ac5b7603bc1e41a753d7ff28d.pdf",
@@ -184,10 +184,10 @@
     "bytes": 49159,
     "sha256": "010b9e633dfba09babd46a3d63fbc0d02656be24eab0f71dc05a97f0a6d8a3b8",
     "saved": "fd73448e51_d2e7809ac5b7603bc1e41a753d7ff28d.pdf",
-    "at": "2026-10-17T00:46:42"
+    "at": "2026-10-17T07:57:21"
    }
   ],
-  "sec": 2.3
+  "sec": 1.3
  },
  "niigata": {
   "ok": true,
@@ -206,7 +206,7 @@
     "bytes": 36389,
     "sha256": "dac974a2d8f6a6b2060070fd5ec4e7983e8c365510f3786d4fbd07171651309c",
     "saved": "794b9577c0_index",
-    "at": "2026-10-17T00:46:43"
+    "at": "2026-10-17T07:57:22"
    },
    {
     "url": "https://www.pref.niigata.lg.jp/uploaded/life/835245_2698736_misc.pdf",
@@ -214,10 +214,10 @@
     "bytes": 84189,
     "sha256": "9998488374377a6ea6dd8ab0272707fa8dd3be665e0005399c5af69bb8da25ea",
     "saved": "61cf8f289e_835245_2698736_misc.pdf",
-    "at": "2026-10-17T00:46:44"
+    "at": "2026-10-17T07:57:22"
    }
   ],
-  "sec": 1.7
+  "sec": 1.5
  },
  "nagasaki": {
   "ok": true,
@@ -234,7 +234,7 @@
     "bytes": 14181,
     "sha256": "e3aad230d8c32ca91338e07cd315b4a722b2d7e01a275805381c9bc7781ee865",
     "saved": "99bdeb5a9f_cruiseschedule.html",
-    "at": "2026-10-17T00:46:45"
+    "at": "2026-10-17T07:57:23"
    },
    {
     "url": "https://nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf",
@@ -242,7 +242,7 @@
     "bytes": 110748,
     "sha256": "b6a263c7343af3ab939c4fb1d35238d13d5f52164276091bee312482098c9921",
     "saved": "65787fceac_R08_cruiseschedule.pdf",
-    "at": "2026-10-17T00:46:46"
+    "at": "2026-10-17T07:57:24"
    },
    {
     "url": "https://nagasaki-port.jp/nagasaki_cruiseschedule/R09_cruiseschedule.pdf",
@@ -250,10 +250,10 @@
     "bytes": 73497,
     "sha256": "a313192ddb77272e3c0f0842a7f5291b5ac8842925277ef8ecb37a23d01cc383",
     "saved": "78fde91c55_R09_cruiseschedule.pdf",
-    "at": "2026-10-17T00:46:47"
+    "at": "2026-10-17T07:57:25"
    }
   ],
-  "sec": 3.5
+  "sec": 2.7
  },
  "hakata": {
   "ok": true,
@@ -270,7 +270,7 @@
     "bytes": 42682,
     "sha256": "4948e772cb533510fb24d6993f05145b4dd515377be117b17c7509d492ddfdc3",
     "saved": "0b48f15639_cruise1.html",
-    "at": "2026-10-17T00:46:49"
+    "at": "2026-10-17T07:57:27"
    },
    {
     "url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/documents/R8yotei1016.pdf",
@@ -278,10 +278,10 @@
     "bytes": 194170,
     "sha256": "f03821b007dfd5defdabbdf9c7f4f0b5ddadff063c1c69ac9cd3a78bd3621e21",
     "saved": "a6256242e0_R8yotei1016.pdf",
-    "at": "2026-10-17T00:46:51"
+    "at": "2026-10-17T07:57:28"
    }
   ],
-  "sec": 3.6
+  "sec": 2.7
  },
  "kagoshima": {
   "ok": true,
@@ -295,10 +295,10 @@
    {
     "url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
     "status": 200,
-    "bytes": 20536,
-    "sha256": "b3f71cdd1eff559c99da5e2923a0cd09289a056d03cbff23895a2831ce60e4ec",
+    "bytes": 20537,
+    "sha256": "da14bb9190292e1e5d005e3198864c1c73c2625aa6e9ee3e588dee9afdaf6c5a",
     "saved": "52e72f0ae0_kagoshimakour8yotei.html",
-    "at": "2026-10-17T00:46:52"
+    "at": "2026-10-17T07:57:28"
    },
    {
     "url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/documents/124404_20261008113627-1.pdf",
@@ -306,10 +306,10 @@
     "bytes": 79719,
     "sha256": "138459e697d55f99152e53f2372d891f309f23acf64361fa919e97c46102ceee",
     "saved": "7438c17ef6_124404_20261008113627-1.pdf",
-    "at": "2026-10-17T00:46:53"
+    "at": "2026-10-17T07:57:29"
    }
   ],
-  "sec": 2.0
+  "sec": 1.6
  },
  "hiroshima": {
   "ok": true,
@@ -323,10 +323,10 @@
    {
     "url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
     "status": 200,
-    "bytes": 26156,
-    "sha256": "822fdbc3a9f437c0e2461c593e9444baf4529131973f1262c72ae7b477994841",
+    "bytes": 26157,
+    "sha256": "6bb585ea9148982d6576f61c0360e9780395a7d084a8e3ab6e3896af94483b6f",
     "saved": "1682a7ad34_cruise-joho.html",
-    "at": "2026-10-17T00:46:53"
+    "at": "2026-10-17T07:57:30"
    },
    {
     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/684321.pdf",
@@ -334,10 +334,10 @@
     "bytes": 81206,
     "sha256": "266839656152da467432f063e115ae6eff1326db140c06d9f75afa9cbafdfded",
     "saved": "41f4762f10_684321.pdf",
-    "at": "2026-10-17T00:46:54"
+    "at": "2026-10-17T07:57:31"
    }
   ],
-  "sec": 1.2
+  "sec": 1.8
  },
  "kochi": {
   "ok": true,
@@ -352,13 +352,13 @@
    {
     "url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
     "status": 200,
-    "bytes": 49217,
-    "sha256": "f16ae4a3b4fb739fc43d5b9cf27fe0c36d6462143eaf6b1320e284152907d2ed",
+    "bytes": 49216,
+    "sha256": "6e6c984646d78796c375282a1e69f00ef30c6f44229979dffe53734ccab2c5cc",
     "saved": "dc8f6b6cb9_index",
-    "at": "2026-10-17T00:46:55"
+    "at": "2026-10-17T07:57:31"
    }
   ],
-  "sec": 1.4
+  "sec": 0.5
  },
  "sasebo": {
   "ok": true,
@@ -373,9 +373,9 @@
     "url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
     "status": 200,
     "bytes": 52672,
-    "sha256": "51bccb41d51bdf048b274b618cd35a124ac9b9719028adf7d7f71bab8c8f7c9c",
+    "sha256": "7d6c0fc8fd3221239ace5513c2cd0ffcfddef44c9d7ca32efced529a6c5bccd4",
     "saved": "e5c05b807e_index",
-    "at": "2026-10-17T00:46:57"
+    "at": "2026-10-17T07:57:32"
    },
    {
     "url": "https://www.nagasaki-tabinet.com/downloads/media/179861",
@@ -383,10 +383,10 @@
     "bytes": 169369,
     "sha256": "eeb0999460932b445e7be0f06f0ffcd43e525355ad596b8b3d808ea5d385f429",
     "saved": "fa209e8304_179861",
-    "at": "2026-10-17T00:46:58"
+    "at": "2026-10-17T07:57:33"
    }
   ],
-  "sec": 2.4
+  "sec": 1.9
  },
  "matsuyama": {
   "ok": true,
@@ -404,10 +404,10 @@
     "bytes": 59848,
     "sha256": "7ef422dad21136f29757e432897bd7348c33803b9e379f505d0c26fb5410e3ab",
     "saved": "bd5479c2a6_1074.html",
-    "at": "2026-10-17T00:46:59"
+    "at": "2026-10-17T07:57:35"
    }
   ],
-  "sec": 1.4
+  "sec": 1.5
  },
  "hososhima": {
   "ok": true,
@@ -422,9 +422,9 @@
     "url": "https://www.pref.miyazaki.lg.jp/kowan/kurashi/shakaikiban/m-port/cruise/20251212151322.html",
     "status": 200,
     "bytes": 26901,
-    "sha256": "1a809f86c7137f9cbdde4c40176f010e4030743b20b46119a2a5229db7ea9b1e",
+    "sha256": "cd3ef71bd37d74d5b6dc353572264f8518ba57bcf8c759cc0f52cc46e05a184a",
     "saved": "5356e43441_20251212151322.html",
-    "at": "2026-10-17T00:47:00"
+    "at": "2026-10-17T07:57:36"
    },
    {
     "url": "https://www.pref.miyazaki.lg.jp/documents/105068/105068_20261008200811-1.pdf",
@@ -432,10 +432,10 @@
     "bytes": 39313,
     "sha256": "0ddb2479ce8f399795e1ef2539bdbd6a4a2d0e14246023fdd654513f092da0bf",
     "saved": "6fd71c07f3_105068_20261008200811-1.pdf",
-    "at": "2026-10-17T00:47:01"
+    "at": "2026-10-17T07:57:36"
    }
   ],
-  "sec": 2.0
+  "sec": 1.7
  },
  "nacru": {
   "ok": true,
@@ -454,7 +454,7 @@
     "bytes": 17879,
     "sha256": "acecc94cae787b988894e6751ac4c1d2f0539fbf15c0e1762650eaa07c18d428",
     "saved": "de9099df08_index",
-    "at": "2026-10-17T00:47:02"
+    "at": "2026-10-17T07:57:37"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=1&ListViewPickerDataProvider.getInitialListViews=1",
@@ -465,10 +465,10 @@
      "maxAllResults": 500
     },
     "status": 200,
-    "bytes": 4271,
-    "sha256": "3e598063a0b9dd551cc07782cd75240b2c1adfcd55e4665d3fa6d6174ab5eb53",
+    "bytes": 4270,
+    "sha256": "7f5a7e5a3877da33c198985984e1c268a1d30776308da9db49dbbba1139cb46e",
     "saved": "aura_01_ListViewPickerDataProvider_getInitialLis.json",
-    "at": "2026-10-17T00:47:03"
+    "at": "2026-10-17T07:57:37"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=2&ListViewDataManager.getItems=1",
@@ -484,10 +484,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 161611,
-    "sha256": "07eac7cf1a3f343c6650b449f524e4766063d5f52083c52324846a11f5a950a0",
+    "bytes": 161609,
+    "sha256": "ccc3136422f8a6c3f855e041c484f5d70915a1ed4f4d003f0c7c0b5a46919b7d",
     "saved": "aura_02_View2.json",
-    "at": "2026-10-17T00:47:03"
+    "at": "2026-10-17T07:57:38"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=3&ListViewDataManager.getItems=1",
@@ -504,9 +504,9 @@
     },
     "status": 200,
     "bytes": 170511,
-    "sha256": "c3d0fe182178280d62d58ec3363ffbe007c3baa197973cd8fc1ef2067d8c290e",
+    "sha256": "a964c78cd83ecd965d80acf8f3c02102753c1c95fe9bfca2a97ae4e7de56d6e8",
     "saved": "aura_03_X20271.json",
-    "at": "2026-10-17T00:47:04"
+    "at": "2026-10-17T07:57:38"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=4&ListViewDataManager.getItems=1",
@@ -523,9 +523,9 @@
     },
     "status": 200,
     "bytes": 88201,
-    "sha256": "3c862c0b0235a9472f384cae95b246918c4cc405dbb4eae6e91e26da33eadb09",
+    "sha256": "1a1107b0b558b374ec4db49b79c4ec3517109400c1474e7a7f749a3556db15b7",
     "saved": "aura_04_X20282.json",
-    "at": "2026-10-17T00:47:04"
+    "at": "2026-10-17T07:57:39"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=5&ListViewDataManager.getItems=1",
@@ -541,10 +541,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 273859,
-    "sha256": "f2265163aaa8970d752edbf43169b16078d03085843578c2a03f4dc7cf6f79d8",
+    "bytes": 273856,
+    "sha256": "d6439c821a1a24d3f400c77426876c7f905913e4d4b5adfab465a922ea030dcf",
     "saved": "aura_05_X20261.json",
-    "at": "2026-10-17T00:47:05"
+    "at": "2026-10-17T07:57:39"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=6&ListViewDataManager.getItems=1",
@@ -560,10 +560,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 530679,
-    "sha256": "842db6bae1bee6bd75ef5b79502ce0393ce786cad3e0160c081e450ee5e5d9f1",
+    "bytes": 530677,
+    "sha256": "6d214e444c7e046700edfea5d27ed1830a9c948a5d8eb7bf8d2f5a87297f210a",
     "saved": "aura_06_X2027.json",
-    "at": "2026-10-17T00:47:06"
+    "at": "2026-10-17T07:57:40"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=7&ListViewDataManager.getItems=1",
@@ -579,10 +579,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 396119,
-    "sha256": "aaa28ce0b5e0e609f8b3ef39ddd884660222d9bf91845ff0f85ee5e4367eab5b",
+    "bytes": 396116,
+    "sha256": "f9730db04dac608e1f063c085f54f7399cc36905b140d3b2aa105c5badb25029",
     "saved": "aura_07_X2028.json",
-    "at": "2026-10-17T00:47:06"
+    "at": "2026-10-17T07:57:41"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=8&ListViewDataManager.getItems=1",
@@ -598,10 +598,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 68925,
-    "sha256": "f8e77a1680efb33140d487410f066698c4b9d85bcc21f71489fd9ce8c8c3e19b",
+    "bytes": 68922,
+    "sha256": "023e233fb447911b7af2e9608158abe2a30013b8868af97a930110faefc70bcc",
     "saved": "aura_08_X2026.json",
-    "at": "2026-10-17T00:47:07"
+    "at": "2026-10-17T07:57:41"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=9&ListViewDataManager.getItems=1",
@@ -617,10 +617,10 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 178214,
-    "sha256": "2ffe7457cd99c258ad8972a0361fc90c63e362cb8f71fe8596fd92031a55e0a5",
+    "bytes": 178211,
+    "sha256": "6f7aee48b9e3419b4aaa2a832926dcf45ef1c08aaee211f7499b9bde03f38f08",
     "saved": "aura_09_X20272.json",
-    "at": "2026-10-17T00:47:08"
+    "at": "2026-10-17T07:57:41"
    },
    {
     "url": "https://nacru.my.site.com/s/sfsites/aura?r=10&ListViewDataManager.getItems=1",
@@ -636,13 +636,13 @@
      "offset": 0
     },
     "status": 200,
-    "bytes": 82428,
-    "sha256": "e8a60a3c5e07678a1a74a20e61469e6fec4802d86f689d003ac56695e5bf1a0f",
+    "bytes": 82427,
+    "sha256": "ba4c386d9abd9578dff3b34a5516118d83d7a11de39bec2bcd4f83470db42cbf",
     "saved": "aura_10_X20281.json",
-    "at": "2026-10-17T00:47:08"
+    "at": "2026-10-17T07:57:42"
    }
   ],
-  "sec": 7.1
+  "sec": 5.3
  },
  "hakodate": {
   "ok": true,
@@ -656,18 +656,18 @@
    {
     "url": "https://www.city.hakodate.hokkaido.jp/soshiki/kouwan_dept/port-dev/",
     "status": 200,
-    "bytes": 263066,
-    "sha256": "1fb8863650084d7743cf0436a0eb7ede8b7018b1f316343108e318c4179735c5",
+    "bytes": 263067,
+    "sha256": "8b2085269acd490b2ed4c9f1af0e30206d7a1d8aa1276f1d98c8131b06d6e978",
     "saved": "822911dc83_index",
-    "at": "2026-10-17T00:47:10"
+    "at": "2026-10-17T07:57:43"
    },
    {
     "url": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
     "status": 200,
     "bytes": 243933,
-    "sha256": "cb17e16038eba366a8d54e6fc60639844c7de7edeb064b531e17613912002239",
+    "sha256": "59ca43a0b162af944e9fed9c48be099c7bf691cea5ef7008fa5bc5702ebfb33e",
     "saved": "212016cc36_index",
-    "at": "2026-10-17T00:47:11"
+    "at": "2026-10-17T07:57:43"
    },
    {
     "url": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/file_contents/nyukouyotei.csv",
@@ -675,10 +675,10 @@
     "bytes": 11862,
     "sha256": "78cfd38ae63a2bb378978c33237b6ba9a1d3d6b078c1df4108d95d66bfe4ae01",
     "saved": "ebc1974132_nyukouyotei.csv",
-    "at": "2026-10-17T00:47:11"
+    "at": "2026-10-17T07:57:44"
    }
   ],
-  "sec": 2.5
+  "sec": 2.0
  },
  "aomori": {
   "ok": true,
@@ -696,7 +696,7 @@
     "bytes": 16296,
     "sha256": "3d7ab4bba73bf648f221f6a3aae65ea56a3cc7cc67e50249e15f33b0d037bcd9",
     "saved": "fbc6543533_2023-aomori-cruise.html",
-    "at": "2026-10-17T00:47:12"
+    "at": "2026-10-17T07:57:45"
    },
    {
     "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
@@ -704,10 +704,10 @@
     "bytes": 258377,
     "sha256": "5ed182f2f7fd4bf57d12f5f6c18147a191be19eb067141b2c05d8e97f70a3f1a",
     "saved": "9b7d908a72_261001_2026cruise.pdf",
-    "at": "2026-10-17T00:47:14"
+    "at": "2026-10-17T07:57:45"
    }
   ],
-  "sec": 2.9
+  "sec": 1.7
  },
  "akita": {
   "ok": true,
@@ -725,7 +725,7 @@
     "bytes": 228684,
     "sha256": "61ae117cb01f4ec8daaed930ca157cb85798afb4eb56c378cd6f02e7eeb8c617",
     "saved": "3ab1bac30f_95116",
-    "at": "2026-10-17T00:47:14"
+    "at": "2026-10-17T07:57:46"
    },
    {
     "url": "https://www.pref.akita.lg.jp/pages/archive/92938",
@@ -733,7 +733,7 @@
     "bytes": 250982,
     "sha256": "32b2c925f0014ce454b1c34ec51ef9587def44238f899ff425802f3926918e55",
     "saved": "449d29ffd2_92938",
-    "at": "2026-10-17T00:47:14"
+    "at": "2026-10-17T07:57:47"
    },
    {
     "url": "https://www.pref.akita.lg.jp/uploads/public/archive_0000092938_00/令和８年のクルーズ船寄港予定（令和８年１０月１４日現在）.pdf",
@@ -741,10 +741,10 @@
     "bytes": 112842,
     "sha256": "f18c67413d005e13879661d2576c947a4d1ee829ba0dacd3ef8e4244595715cd",
     "saved": "c725dcfac1_____________________________.pdf",
-    "at": "2026-10-17T00:47:14"
+    "at": "2026-10-17T07:57:48"
    }
   ],
-  "sec": 0.6
+  "sec": 2.3
  },
  "sakata": {
   "ok": true,
@@ -761,10 +761,10 @@
     "bytes": 32649,
     "sha256": "1edb471a72e2a6d70feae2c5d22f283e4604235cc596684b47f8044a51d2f81e",
     "saved": "82212034c2_shoko0320191023.html",
-    "at": "2026-10-17T00:47:15"
+    "at": "2026-10-17T07:57:48"
    }
   ],
-  "sec": 0.9
+  "sec": 0.6
  },
  "miyako": {
   "ok": true,
@@ -781,7 +781,7 @@
     "bytes": 54503,
     "sha256": "4b8d112ed96aa385165e16475667425891a43029c9e65ebf3008df9e022a1390",
     "saved": "c3cafe8174_index",
-    "at": "2026-10-17T00:47:17"
+    "at": "2026-10-17T07:57:49"
    },
    {
     "url": "https://www.city.miyako.iwate.jp/gyosei/soshiki/kanko/1_1/10296.html",
@@ -789,9 +789,9 @@
     "bytes": 74996,
     "sha256": "5903c05122130664a009f4add1f9de73b80f2dc3e50e7c800f5b8166c733c3d8",
     "saved": "ac103de6a6_10296.html",
-    "at": "2026-10-17T00:47:17"
+    "at": "2026-10-17T07:57:50"
    }
   ],
-  "sec": 2.1
+  "sec": 1.6
  }
 }
