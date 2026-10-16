@@ -25,6 +25,8 @@ SITE = 'https://cruisefun.jp'
 DAYS_CHECK = 30    # 港ページが表示する期間
 DAYS_IMPORT = 92   # 取り込み案に入れる期間
 CONFIG = os.path.join(HERE, '..', 'config', 'decisions.json')
+# いまサイトの「公式の入港予定」に保存されている一覧（保存するたびに、この写しも更新する）
+APPROVED = os.path.join(HERE, '..', 'state', 'approved_import.json')
 
 
 JST = datetime.timezone(datetime.timedelta(hours=9))
@@ -155,7 +157,7 @@ def main():
         sp, ss = sport(r['port']), sship(r['ship'])
         it = dict(r, site_port=sp[1] if sp else '', site_slug=sp[2] if sp else '', site_ship=ss[1] if ss else '')
         it['port_name'] = it['site_port'] or r['port']
-        it['ship_name'] = it['site_ship'] or r['ship']
+        it['ship_name'] = it['site_ship'] or C.ship_name(r['ship'])
         if any(x.get('kind') == 'official' and match_rule(x, {'date': r['date'], 'port': it['port_name'], 'ship': it['ship_name']}) for x in ignore):
             it['excluded'] = True
         off.append(it)
@@ -223,13 +225,48 @@ def main():
         end = r['end'] if (datetime.date.fromisoformat(r['end']) - datetime.date.fromisoformat(r['date'])).days <= 7 else r['date']
         imp.append({'date': r['date'], 'end': end, 'port': r['port_name'], 'ship': r['ship_name'], 'in': r['in'], 'out': r['out'],
                     'berth': r['berth'][:60], 'source_title': t, 'source_url': u, 'checked': t0})
+    # いま保存されている一覧と比べる。公式から消えた行は、自動では消さずに残し（確認待ち）、報告に出す
+    ik = lambda r: (r['date'], C.norm(r['port']), skey(r['ship']))
+    appr = json.load(open(APPROVED, encoding='utf-8'))['rows'] if os.path.exists(APPROVED) else []
+    A = {ik(r): r for r in appr if r['end'] >= t0 and r['date'] <= lim_import}
+    I = {ik(r): r for r in imp}
+    gone, changed = [], []
+    for k, r in sorted(A.items()):
+        if k not in I:
+            if any(x.get('kind') == 'drop' and match_rule(x, r) for x in ignore):
+                continue
+            imp.append(dict(r))
+            gone.append(r)
+        elif (I[k]['in'], I[k]['out'], I[k]['end']) != (r['in'], r['out'], r['end']):
+            changed.append([r, I[k]])
+    added = [r for k, r in I.items() if k not in A]
+    imp.sort(key=lambda r: (r['date'], r['port'], r['in']))
+    # 同じ船が同じ日に2つの港（出港した日に次の港に入る移動は除く）
+    days = {}
+    for r in imp:
+        d = datetime.date.fromisoformat(r['date'])
+        while d.isoformat() <= r['end']:
+            days.setdefault((skey(r['ship']), d.isoformat()), []).append(r)
+            d += datetime.timedelta(1)
+    clash = []
+    for (sk, day), lst in sorted(days.items(), key=lambda x: x[0][1]):
+        if len({C.norm(r['port']) for r in lst}) < 2:
+            continue
+        lv = [r for r in lst if not (r['end'] == day and r['date'] != day and any(j is not r and j['date'] == day and r['out'] and j['in'] and r['out'] <= j['in'] for j in lst))]
+        lv = [r for r in lv if not (r['date'] == day and any(j is not r and j['end'] == day and j['out'] and r['in'] and j['out'] <= r['in'] for j in lst))]
+        if len({C.norm(r['port']) for r in lv}) > 1:
+            clash.append({'date': day, 'ship': lst[0]['ship'], 'calls': [f"{r['port']} {r['date'][5:]} {r['in'] or '—'}〜{r['end'][5:]} {r['out'] or '—'}" for r in lst]})
+    noship = sorted({r['ship'] for r in imp if not sship(r['ship'])})
     stamp = datetime.datetime.now(JST).strftime('%Y-%m-%d %H:%M')
     common.save_json(os.path.join(work, 'import.json'), {'imported': stamp, 'months': [], 'rows': imp})
 
     ng = {k: v.get('error', '') for k, v in report.items() if not v['ok']}
     zero = [k for k, v in report.items() if v['ok'] and not v.get('rows')]
-    common.save_json(os.path.join(work, 'daily.json'), {'date': t0, 'diffs': diffs, 'fetch_ng': ng, 'zero_rows': zero, 'page_err': page_err, 'import_rows': len(imp)})
-    fp = hashlib.sha256(json.dumps([diffs, sorted(ng), zero, page_err], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
+    notify = len(diffs) + len(ng) + len(zero) + len(page_err) + len(gone) + len(changed) + len(clash)
+    common.save_json(os.path.join(work, 'daily.json'), {'date': t0, 'diffs': diffs, 'fetch_ng': ng, 'zero_rows': zero, 'page_err': page_err,
+                                                        'import_rows': len(imp), 'gone': gone, 'changed': changed, 'added': len(added),
+                                                        'clash': clash, 'no_ship_page': noship, 'notify': notify})
+    fp = hashlib.sha256(json.dumps([diffs, sorted(ng), zero, page_err, [ik(r) for r in gone], changed, clash], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
     open(os.path.join(work, 'fingerprint'), 'w').write(fp)
 
     # 報告（Issue の本文）
@@ -254,6 +291,25 @@ def main():
             L.append('')
     else:
         L += ['違いはありませんでした。', '']
+    L += ['## 取り込み案と、いま保存されている一覧の違い', '',
+          f'- 取り込み案 {len(imp)}件（今日〜{DAYS_IMPORT}日後）。いま保存されている一覧（同じ期間）{len(A)}件。',
+          f'- 新しく入る行：{len(added)}件（' + '、'.join(f'{m}：{n}件' for m, n in sorted(__import__("collections").Counter(r["date"][:7] for r in added).items())) + '）',
+          f'- 時刻・日付が変わる行：{len(changed)}件', f'- 公式から消えた行：{len(gone)}件（自動では消さず、取り込み案に残してある）', '']
+    if changed:
+        L += ['### 時刻・日付が変わる行', '', '| 日付 | 港 | 船 | いま | 取り込み案 |', '|---|---|---|---|---|']
+        L += [f"| {a['date'][5:]} | {a['port']} | {a['ship']} | {a['in'] or '—'}–{a['out'] or '—'}（〜{a['end'][5:]}） | {b['in'] or '—'}–{b['out'] or '—'}（〜{b['end'][5:]}） |" for a, b in changed]
+        L.append('')
+    if gone:
+        L += ['### 公式から消えた行（確認待ち）', '', '中止のお知らせがあれば `config/decisions.json` に kind: drop で入れると、取り込み案から外れます。', '',
+              '| 日付 | 港 | 船 | 入/出 |', '|---|---|---|---|']
+        L += [f"| {r['date'][5:]} | {r['port']} | {r['ship']} | {r['in'] or '—'} / {r['out'] or '—'} |" for r in gone]
+        L.append('')
+    if clash:
+        L += ['### 同じ日に同じ船が2つの港（どちらかの資料が古い・誤りの可能性）', '']
+        L += [f"- {c['date'][5:]} {c['ship']}：" + '／'.join(c['calls']) for c in clash]
+        L.append('')
+    if noship:
+        L += ['船のページがない船名（そのままの名前で表示される）：' + '、'.join(noship), '']
     L += ['## 次にすること', '- 違いを確かめて、直すものを決める（Claude に「この Issue の違いを判断して」と頼めます）。',
           f'- 取り込み案 `import.json`（{len(imp)}件、今日〜{DAYS_IMPORT}日後）は、承認のあと「ツール ＞ 公式の入港予定」で確認だけ → 保存。',
           '- 直さないと決めたものは `config/decisions.json` に入れると、次から出ません。']

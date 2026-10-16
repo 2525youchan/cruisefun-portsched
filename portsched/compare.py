@@ -25,7 +25,7 @@ PORT_ALIAS = {
 SHIP_ALIAS = {
     'イースタンヴィーナス': 'イースタンビーナス', 'イースタン・ヴィーナス': 'イースタンビーナス', 'イースタン・ビーナス': 'イースタンビーナス',
     'ウェステルダム': 'ウエステルダム', 'ミツイ・オーシャン・サクラ': '三井オーシャンサクラ', 'ミツイ・オーシャン・フジ': '三井オーシャンフジ',
-    'ルミナラ': 'ルミナーラ', 'セレブレティミレニアム': 'セレブリティ・ミレニアム', 'SEABORUN ENCORE': 'シーボーン・アンコール', 'VISIO': 'ビジオ',
+    'ルミナラ': 'ルミナーラ', 'セレブレティミレニアム': 'セレブリティ・ミレニアム', 'SEABORUN ENCORE': 'シーボーン・アンコール', 'VISIO': 'ビジオ', 'サファイヤプリンセス': 'サファイア・プリンセス',
 }
 
 
@@ -36,9 +36,18 @@ def norm(s):
     return s
 
 
+SHIP_ALIAS_N = {norm(k): v for k, v in SHIP_ALIAS.items()}
+
+
+def ship_name(s):
+    """表記ゆれの表で直した船名（表になければ元のまま）"""
+    return SHIP_ALIAS_N.get(norm(s), s)
+
+
 def ship_keys(s):
     """船名の照合用のキー（日本語・英語の両方）。飛鳥2・飛鳥3 → 飛鳥ii・飛鳥iii"""
-    n = norm(SHIP_ALIAS.get(s, s))
+    n = norm(s)
+    n = norm(SHIP_ALIAS_N.get(n, s))  # 表記ゆれの表は、空白・中黒の違いも同じとみなす
     n = re.sub(r'飛鳥(2|ii|Ⅱ)$', '飛鳥ii', n)
     n = re.sub(r'飛鳥(3|iii|Ⅲ)$', '飛鳥iii', n)
     n = n.replace('asuka2', 'asukaii').replace('asuka3', 'asukaiii')

@@ -52,7 +52,7 @@ jobs:
           D=$(date +%Y-%m-%d)
           FP=$(cat work/fingerprint)
           OLD=$(cat state/daily_fingerprint 2>/dev/null || echo none)
-          N=$(python -c "import json;d=json.load(open('work/daily.json',encoding='utf-8'));print(len(d['diffs'])+len(d['fetch_ng'])+len(d['zero_rows'])+len(d['page_err']))")
+          N=$(python -c "import json;print(json.load(open('work/daily.json',encoding='utf-8'))['notify'])")
           echo "fingerprint $FP (old $OLD), items $N"
           mkdir -p "proposals/$D"
           cp work/daily.md work/daily.json work/import.json work/report.json "proposals/$D/"
