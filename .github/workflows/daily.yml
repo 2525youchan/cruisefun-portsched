@@ -24,9 +24,9 @@ jobs:
       run:
         shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
 
@@ -40,7 +40,7 @@ jobs:
         env:
           PYTHONUTF8: '1'
         run: |
-          pdftotext -v 2>&1 | head -1
+          pdftotext -v 2>&1 | head -1 || true   # xpdf の pdftotext は -v でも終了コード 99 を返す
           python -I portsched/daily.py work
 
       - name: 結果を残して、変わっていれば Issue を作る
@@ -74,7 +74,7 @@ jobs:
 
       - name: 取得した元ファイル（14日だけ保存）
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: work-${{ github.run_id }}
           path: work
