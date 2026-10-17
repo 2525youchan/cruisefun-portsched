@@ -1,0 +1,206 @@
+{
+ "date": "2026-10-18",
+ "diffs": [
+  {
+   "kind": "add",
+   "date": "2026-10-19",
+   "end": "2026-10-19",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "official": [
+    "15:00",
+    "23:00"
+   ],
+   "site": null,
+   "src": "nacru",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-10-20",
+   "end": "2026-10-21",
+   "port": "神戸港",
+   "ship": "バイキング・オリオン",
+   "official": [
+    "08:30",
+    "01:30"
+   ],
+   "site": [
+    "08:30",
+    "19:00",
+    "2026-10-20"
+   ],
+   "src": "kobe",
+   "note": ""
+  },
+  {
+   "kind": "site_only",
+   "date": "2026-10-22",
+   "end": "2026-10-22",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "official": null,
+   "site": [
+    "15:00",
+    "22:00",
+    "2026-10-22"
+   ],
+   "src": "",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-10-23",
+   "end": "2026-10-23",
+   "port": "別府港",
+   "ship": "バイキング・オリオン",
+   "official": [
+    "",
+    ""
+   ],
+   "site": null,
+   "src": "beppu",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "油津港",
+   "ship": "ダイヤモンド・プリンセス",
+   "official": [
+    "08:00",
+    "17:00"
+   ],
+   "site": [
+    "07:00",
+    "17:00",
+    "2026-10-25"
+   ],
+   "src": "aburatsu",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-10-29",
+   "end": "2026-10-29",
+   "port": "別府港",
+   "ship": "セブンシーズ・エクスプローラー",
+   "official": [
+    "",
+    ""
+   ],
+   "site": null,
+   "src": "beppu",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-11-08",
+   "end": "2026-11-08",
+   "port": "別府港",
+   "ship": "シーボーン・アンコール",
+   "official": [
+    "",
+    ""
+   ],
+   "site": null,
+   "src": "beppu",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-11-08",
+   "end": "2026-11-08",
+   "port": "油津港",
+   "ship": "ダイヤモンド・プリンセス",
+   "official": [
+    "08:00",
+    "18:00"
+   ],
+   "site": null,
+   "src": "aburatsu",
+   "note": ""
+  },
+  {
+   "kind": "site_only",
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "境港",
+   "ship": "イースタンビーナス",
+   "official": null,
+   "site": [
+    "09:00",
+    "18:00",
+    "2026-11-12"
+   ],
+   "src": "",
+   "note": ""
+  }
+ ],
+ "fetch_ng": {},
+ "zero_rows": [],
+ "page_err": [],
+ "import_rows": 469,
+ "gone": [
+  {
+   "date": "2026-10-22",
+   "end": "2026-10-22",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "in": "15:00",
+   "out": "22:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-17"
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "境港",
+   "ship": "イースタンビーナス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "",
+   "source_title": "境夢みなとターミナル「客船寄港予定」",
+   "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
+   "checked": "2026-10-17"
+  }
+ ],
+ "changed": [
+  [
+   {
+    "date": "2026-10-20",
+    "end": "2026-10-20",
+    "port": "神戸港",
+    "ship": "バイキング・オリオン",
+    "in": "08:30",
+    "out": "19:00",
+    "berth": "S-4Q1/2",
+    "source_title": "神戸観光局「客船入港予定」",
+    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+    "checked": "2026-10-17"
+   },
+   {
+    "date": "2026-10-20",
+    "end": "2026-10-21",
+    "port": "神戸港",
+    "ship": "バイキング・オリオン",
+    "in": "08:30",
+    "out": "01:30",
+    "berth": "S-4Q1/2",
+    "source_title": "神戸観光局「客船入港予定」",
+    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+    "checked": "2026-10-18"
+   }
+  ]
+ ],
+ "added": 36,
+ "clash": [],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "ビジオ"
+ ],
+ "notify": 12
+}
