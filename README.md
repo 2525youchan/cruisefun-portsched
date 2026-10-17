@@ -1,6 +1,6 @@
 # cruisefun-portsched
 
-cruisefun.jp の「入港予定」のために、各港の公式の予定表（22か所）を GitHub Actions で自動取得する仕組みです。
+cruisefun.jp の「入港予定」のために、各港の公式の予定表（26か所）を GitHub Actions で自動取得する仕組みです。
 **サイトには何も書き込みません。** 違いや取り込み案を Issue で知らせ、反映はオーナーの承認のあと管理画面で行います。
 
 ## 動き
@@ -36,7 +36,7 @@ python -I portsched/daily.py work
 PDF の読み取りに pdftotext（Git for Windows に入っている版）を使います。Actions も同じものを使うため Windows で動かしています。
 
 ## ファイル
-- `portsched/run.py`：22か所を取得して `rows.json`・`report.json` を作る
+- `portsched/run.py`：26か所を取得して `rows.json`・`report.json` を作る
 - `portsched/ports/*.py`：港ごとの読み取り
 - `portsched/daily.py`：サイトの表示と比べて報告と取り込み案を作る
 - `portsched/compare.py`：ある月の一覧を作る

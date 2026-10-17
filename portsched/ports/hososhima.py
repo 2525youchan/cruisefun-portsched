@@ -2,6 +2,7 @@
 
 ページ「クルーズ船寄港情報」には細島港・宮崎港・油津港の PDF がどれも「寄港スケジュール」という
 同じリンク名で並ぶので、直前の見出し（h2/h3 が「細島港」）で選ぶ。PDF の 1 行目の表題も確かめる。
+油津港・宮崎港も同じページ・同じ形の PDF なので、ports/aburatsu.py・ports/miyazaki.py はこの読み取りを港名だけ変えて使う。
 PDF は暦年ごとの節（2025(令和7)年 / 2026(令和8)年 …）に分かれ、日付は月日のみ。
 備考の「初寄港」は note へ。「終了」（寄港済み）は取り除く。
 """
@@ -18,7 +19,7 @@ TIME = re.compile(r'^\d{1,2}:\d{2}$')
 NUM = re.compile(r'^(\d{1,3}(?:,\d{3})+|\d+)$')
 
 
-def _pdf_urls(ctx):
+def _pdf_urls(ctx, port=PORT):
     soup = BeautifulSoup(ctx.get(LANDING), 'html.parser')
     heading, urls = '', []
     for el in soup.find_all(['h2', 'h3', 'h4', 'a']):
@@ -26,19 +27,19 @@ def _pdf_urls(ctx):
             heading = common.z2h(el.get_text(strip=True)).replace('\xa0', '').strip()
             continue
         href = el.get('href', '')
-        if heading == PORT and href.lower().endswith('.pdf') and 'スケジュール' in el.get_text():
+        if heading == port and href.lower().endswith('.pdf') and 'スケジュール' in el.get_text():
             u = urljoin(LANDING, href)
             if u not in urls:
                 urls.append(u)
     if not urls:
-        raise ValueError('細島港 schedule PDF link not found on ' + LANDING)
+        raise ValueError(port + ' schedule PDF link not found on ' + LANDING)
     return urls
 
 
-def _parse(text, url):
+def _parse(text, url, port=PORT):
     zt = common.z2h(text)
-    if PORT not in zt[:200]:
-        raise ValueError('PDF title is not 細島港: ' + url)
+    if port not in zt[:200]:
+        raise ValueError('PDF title is not ' + port + ': ' + url)
     out, year, cur = [], None, None
     recs = []
     for line in zt.splitlines():
@@ -80,15 +81,15 @@ def _parse(text, url):
         prev = place[1] if len(place) > 1 else ''
         nxt = place[2] if len(place) > 2 else ''
         status = 'cancelled' if any(re.search(r'中止|キャンセル|抜港', t) for t in marks) else 'scheduled'
-        out.append(common.row(date=common.ymd(y, mo, da), port=PORT, ship=ship,
+        out.append(common.row(date=common.ymd(y, mo, da), port=port, ship=ship,
                               **{'in': common.hhmm(tin), 'out': common.hhmm(tout)},
                               prev=prev, next=nxt, status=status, note=' '.join(marks), source=url,
                               raw=' '.join([first] + extra)))
     return out
 
 
-def fetch(ctx):
+def fetch(ctx, port=PORT):
     rows = []
-    for url in _pdf_urls(ctx):
-        rows += _parse(ctx.pdf_text(url, raw=True), url)
+    for url in _pdf_urls(ctx, port):
+        rows += _parse(ctx.pdf_text(url, raw=True), url, port)
     return rows

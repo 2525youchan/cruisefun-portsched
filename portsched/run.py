@@ -17,6 +17,7 @@ PORTS = [
     'yokohama', 'tokyo', 'shimizu', 'osaka', 'kobe', 'kanazawa', 'sakaiminato', 'niigata',
     'nagasaki', 'hakata', 'kagoshima', 'hiroshima', 'kochi', 'sasebo', 'matsuyama', 'hososhima',
     'nacru', 'hakodate', 'aomori', 'akita', 'sakata', 'miyako',
+    'aburatsu', 'miyazaki', 'beppu', 'tokushima',
 ]
 
 
