@@ -9,6 +9,7 @@
     WORKDIR/daily.json   違いの一覧（機械用）
     WORKDIR/daily.md     違いの報告（人が読む用。GitHub の Issue の本文になる）
     WORKDIR/import.json  「ツール ＞ 公式の入港予定」に貼る案（今日〜92日後。確認だけ → 保存はオーナーの承認後）
+                         各行の src_updated は、公式の資料に書いてある更新日（不明なら ''）
     WORKDIR/fingerprint  違いの指紋（前の日と同じなら Issue を作らない）
 """
 import sys, os, re, json, html, hashlib, datetime, subprocess
@@ -248,6 +249,13 @@ def main():
     cross_bad = [it for it in cross['items'] if it['cls'] == '食い違いの可能性'] if cross else []
 
     # 取り込み案（今日〜92日後。ツール ＞ 公式の入港予定 に貼る形）
+    # src_updated：その取得元の資料に書いてある更新日（'YYYY-MM-DD'。不明なら ''。港ページの出典に出す）
+    def src_updated(key):
+        try:
+            return checks.row_src_updated(src_upd, key)
+        except Exception:
+            return ''
+
     imp, seen = [], set()
     for r in sorted(off, key=lambda r: (r['date'], r['port_name'], r['in'])):
         if r['status'] == 'cancelled' or r.get('excluded') or r['date'] > lim_import:
@@ -259,7 +267,8 @@ def main():
         t, u = NACRU[r['port_name']] if r['src_key'] == 'nacru' else SOURCES[r['src_key']]
         end = r['end'] if (datetime.date.fromisoformat(r['end']) - datetime.date.fromisoformat(r['date'])).days <= 7 else r['date']
         imp.append({'date': r['date'], 'end': end, 'port': r['port_name'], 'ship': r['ship_name'], 'in': r['in'], 'out': r['out'],
-                    'berth': r['berth'][:60], 'source_title': t, 'source_url': u, 'checked': t0})
+                    'berth': r['berth'][:60], 'source_title': t, 'source_url': u, 'checked': t0,
+                    'src_updated': src_updated(r['src_key'])})
     # いま保存されている一覧と比べる。公式から消えた行は、自動では消さずに残し（確認待ち）、報告に出す
     ik = lambda r: (r['date'], C.norm(r['port']), skey(r['ship']))
     appr = json.load(open(APPROVED, encoding='utf-8'))['rows'] if os.path.exists(APPROVED) else []
@@ -270,7 +279,7 @@ def main():
         if k not in I:
             if any(x.get('kind') == 'drop' and match_rule(x, r) for x in ignore):
                 continue
-            imp.append(dict(r))
+            imp.append(dict(r, src_updated=r.get('src_updated', '')))  # 前の一覧の行は、前の値のまま（なければ ''）
             gone.append(r)
         elif (I[k]['in'], I[k]['out'], I[k]['end']) != (r['in'], r['out'], r['end']):
             changed.append([r, I[k]])
@@ -309,7 +318,9 @@ def main():
                                                         'cross_counts': cross['counts'] if cross else None, 'cross_bad': cross_bad,
                                                         'cross_orphans': cross['orphans'] if cross else None,
                                                         'src_updated': src_upd, 'check_err': check_err, 'notify': notify})
-    fp_items = [diffs, sorted(ng), zero, page_err, [ik(r) for r in gone], changed, clash]
+    # 指紋は src_updated を入れない前の作りのまま（公式の更新日だけが変わっても、新しい Issue にしない）
+    no_upd = lambda r: {k: v for k, v in r.items() if k != 'src_updated'}
+    fp_items = [diffs, sorted(ng), zero, page_err, [ik(r) for r in gone], [[no_upd(a), no_upd(b)] for a, b in changed], clash]
     extra = [sorted([w['src'], w['kind']] for w in cwarn), [[it['date'], it['port'], it['ship']] for it in cross_bad], check_err]
     if any(extra):  # 新しい点検で何もなければ、指紋は前と同じ作り
         fp_items.append(extra)

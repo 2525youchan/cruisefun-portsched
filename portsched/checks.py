@@ -3,6 +3,7 @@
 1. cross_check   東京港・那覇港の行を、ほかの港の公式の行（前港・次港）で裏付けられるか調べる
 2. count_check   取得元ごとの件数の急な変化・取得の失敗・読み取りの失敗（state/source_counts.json と比べる）
 3. src_dates     取得元の資料そのものに書いてある更新日（見つからなければ ''＝不明。推測しない）
+   row_src_updated  取り込み案の1行に入れる src_updated（src_dates の日付。不明・形が違うときは ''）
 
 daily.py は、それぞれを try で囲んで呼ぶ（失敗しても Issue にひとこと出るだけで、ほかの処理は続く）。
 """
@@ -399,6 +400,20 @@ def src_dates(work, report, today):
         except Exception as e:  # この取得元だけ「不明」にする
             item['where'] = f'読み取りの失敗 {e!r}'[:120]
     return res
+
+
+def row_src_updated(dates, key):
+    """取り込み案（import.json）の行に入れる src_updated。src_dates の結果から取る。
+    'YYYY-MM-DD'（実在する日付）だけを返し、不明・失敗・形が違うときは ''（推測しない）"""
+    try:
+        d = (dates or {}).get(key) or {}
+        v = d.get('date', '') if isinstance(d, dict) else ''
+        if isinstance(v, str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}', v):
+            datetime.date.fromisoformat(v)
+            return v
+    except Exception:
+        pass
+    return ''
 
 
 def fetched_at(rep):
