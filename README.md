@@ -39,5 +39,8 @@ PDF の読み取りに pdftotext（Git for Windows に入っている版）を�
 - `portsched/run.py`：26か所を取得して `rows.json`・`report.json` を作る
 - `portsched/ports/*.py`：港ごとの読み取り
 - `portsched/daily.py`：サイトの表示と比べて報告と取り込み案を作る
+- `portsched/checks.py`：報告だけの点検（東京港・那覇港の裏付け／取得件数の急な変化・失敗／公式の資料の更新日）。行や取り込み案は変えない。失敗しても daily.py は止まらない
+- `state/source_counts.json`：取得元ごとの、前に取得できたときの件数（取得に成功し1行以上読めたときだけ更新）
+- `tests/test_checks.py`：checks.py の確認（`python -I tests/test_checks.py`）
 - `portsched/compare.py`：ある月の一覧を作る
 - `portsched/export.py`：取得元の名前と URL（`SOURCES`・`NACRU`）

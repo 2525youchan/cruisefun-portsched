@@ -1,8 +1,9 @@
 """毎日の確認：各港の公式の予定表と、サイトの港ページの表示（30日以内）を比べる。サイトには何も書き込まない。
 
 使い方:
-    python -I daily.py WORKDIR [--no-fetch]
+    python -I daily.py WORKDIR [--no-fetch] [--no-state]
     （--no-fetch：WORKDIR/rows.json と report.json がすでにあるとき、取得をやり直さない）
+    （--no-state：state/source_counts.json（取得元ごとの件数の記録）を更新しない。試しに動かすとき用）
 
 出力:
     WORKDIR/daily.json   違いの一覧（機械用）
@@ -19,6 +20,11 @@ sys.path.insert(0, HERE)
 sys.stdout.reconfigure(encoding='utf-8')
 import common
 import compare as C
+try:
+    import checks  # 報告だけの点検。読み込めなくても、毎日の処理は止めない（各呼び出しは try の中）
+except Exception as _e:  # noqa
+    checks = None
+    print('checks.py not loaded', repr(_e))
 from export import SOURCES, NACRU
 
 SITE = 'https://cruisefun.jp'
@@ -114,6 +120,9 @@ def match_rule(rule, r):
 
 
 def main():
+    if len(sys.argv) < 2 or sys.argv[1] in ('-h', '--help'):
+        print(__doc__)
+        return
     work = sys.argv[1]
     os.makedirs(work, exist_ok=True)
     today = today_jst()
@@ -124,6 +133,24 @@ def main():
     report = json.load(open(os.path.join(work, 'report.json'), encoding='utf-8'))
     dec = json.load(open(CONFIG, encoding='utf-8')) if os.path.exists(CONFIG) else {}
     ignore = dec.get('ignore', [])
+
+    # 報告だけの点検（checks.py）。失敗しても、ここで止めずに Issue にひとこと出す
+    check_err = []
+    try:
+        src_upd = checks.src_dates(work, report, today)
+        for k, v in src_upd.items():
+            report[k]['src_updated'] = v['date']
+            report[k]['src_updated_where'] = v['where']
+        common.save_json(os.path.join(work, 'report.json'), report)
+    except Exception as e:
+        src_upd = {}
+        check_err.append(f'公式の更新日の読み取りに失敗：{e!r}'[:200])
+    try:
+        cwarn, cstate, cfirst = checks.count_check(report, rows, today, checks.load_state())
+        count_ok = True
+    except Exception as e:
+        cwarn, cstate, cfirst, count_ok = [], None, [], False
+        check_err.append(f'件数の点検に失敗：{e!r}'[:200])
 
     page_err = []
     site_pages(work, page_err)
@@ -212,6 +239,14 @@ def main():
                       'note': ('公式に「中止」とある。' if cancelled else '') + ('公式では同じ日に ' + '、'.join(other) if other else '')})
     diffs.sort(key=lambda d: (d['date'], d['port'], d['ship']))
 
+    # 東京港・那覇港の裏付け（ほかの港の公式の前港・次港から）
+    try:
+        cross = checks.cross_check(off, today, DAYS_CHECK, key=lambda r: skey(r['ship_name']))
+    except Exception as e:
+        cross = None
+        check_err.append(f'東京港・那覇港の裏付けの点検に失敗：{e!r}'[:200])
+    cross_bad = [it for it in cross['items'] if it['cls'] == '食い違いの可能性'] if cross else []
+
     # 取り込み案（今日〜92日後。ツール ＞ 公式の入港予定 に貼る形）
     imp, seen = [], set()
     for r in sorted(off, key=lambda r: (r['date'], r['port_name'], r['in'])):
@@ -262,18 +297,36 @@ def main():
 
     ng = {k: v.get('error', '') for k, v in report.items() if not v['ok']}
     zero = [k for k, v in report.items() if v['ok'] and not v.get('rows')]
-    notify = len(diffs) + len(ng) + len(zero) + len(page_err) + len(gone) + len(changed) + len(clash)
+    try:
+        upc = checks.upcoming(rows, today)
+    except Exception:
+        upc = {}
+    notify = len(diffs) + len(ng) + len(zero) + len(page_err) + len(gone) + len(changed) + len(clash) + len(cwarn) + len(cross_bad) + len(check_err)
     common.save_json(os.path.join(work, 'daily.json'), {'date': t0, 'diffs': diffs, 'fetch_ng': ng, 'zero_rows': zero, 'page_err': page_err,
                                                         'import_rows': len(imp), 'gone': gone, 'changed': changed, 'added': len(added),
-                                                        'clash': clash, 'no_ship_page': noship, 'notify': notify})
-    fp = hashlib.sha256(json.dumps([diffs, sorted(ng), zero, page_err, [ik(r) for r in gone], changed, clash], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
+                                                        'clash': clash, 'no_ship_page': noship,
+                                                        'count_warn': cwarn, 'count_first': cfirst, 'upcoming': upc,
+                                                        'cross_counts': cross['counts'] if cross else None, 'cross_bad': cross_bad,
+                                                        'cross_orphans': cross['orphans'] if cross else None,
+                                                        'src_updated': src_upd, 'check_err': check_err, 'notify': notify})
+    fp_items = [diffs, sorted(ng), zero, page_err, [ik(r) for r in gone], changed, clash]
+    extra = [sorted([w['src'], w['kind']] for w in cwarn), [[it['date'], it['port'], it['ship']] for it in cross_bad], check_err]
+    if any(extra):  # 新しい点検で何もなければ、指紋は前と同じ作り
+        fp_items.append(extra)
+    fp = hashlib.sha256(json.dumps(fp_items, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
     open(os.path.join(work, 'fingerprint'), 'w').write(fp)
 
     # 報告（Issue の本文）
     lab = {'add': 'サイトにない（追加の候補）', 'time': '時刻・日付が違う', 'site_only': '公式にない（中止の候補）'}
     L = [f'# 入港予定の毎日の確認（{stamp} JST）', '',
          f'各港の公式の予定表（{len(report)}か所）と、サイトの港ページの表示（今日〜{DAYS_CHECK}日後）を比べた結果です。**サイトはまだ変えていません。**', '']
-    if ng or zero or page_err:
+    if check_err:
+        L += ['## 点検の一部ができなかった（ほかの処理は続けました）', ''] + [f'- {e}' for e in check_err] + ['']
+    if count_ok:
+        L += checks.count_md(cwarn, cfirst)
+        if page_err:
+            L += ['## 取得できなかったもの'] + [f'- サイト {e[:120]}' for e in page_err] + ['']
+    elif ng or zero or page_err:
         L.append('## 取得できなかったもの')
         L += [f'- {k}：{e[:120]}' for k, e in ng.items()] + [f'- {k}：0行（表の形が変わった可能性）' for k in zero] + [f'- サイト {e[:120]}' for e in page_err]
         L.append('')
@@ -310,10 +363,26 @@ def main():
         L.append('')
     if noship:
         L += ['船のページがない船名（そのままの名前で表示される）：' + '、'.join(noship), '']
+    if cross:
+        try:
+            L += checks.cross_md(cross, DAYS_CHECK)
+        except Exception as e:
+            L += [f'（東京港・那覇港の裏付けの表示に失敗：{e!r}）'[:200], '']
+    try:
+        labels = {k: (SOURCES[k][0] if k in SOURCES else 'NACRU（那覇・石垣・平良）') for k in report}
+        L += checks.sources_md(report, upc, src_upd, labels)
+    except Exception as e:
+        L += [f'（取得元ごとの表の表示に失敗：{e!r}）'[:200], '']
     L += ['## 次にすること', '- 違いを確かめて、直すものを決める（Claude に「この Issue の違いを判断して」と頼めます）。',
           f'- 取り込み案 `import.json`（{len(imp)}件、今日〜{DAYS_IMPORT}日後）は、承認のあと「ツール ＞ 公式の入港予定」で確認だけ → 保存。',
           '- 直さないと決めたものは `config/decisions.json` に入れると、次から出ません。']
     open(os.path.join(work, 'daily.md'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
+    # 件数の記録：取得に成功し1行以上読めた取得元だけ更新する（失敗・0行のときは前の記録のまま）。--no-state で書かない
+    if cstate is not None and '--no-state' not in sys.argv:
+        try:
+            checks.save_state(cstate)
+        except Exception as e:
+            print('state/source_counts.json not saved', repr(e))
     print('diffs', len(diffs), 'ng', len(ng), 'import', len(imp), 'fp', fp)
 
 
