@@ -1,0 +1,417 @@
+{
+ "date": "2026-10-20",
+ "diffs": [
+  {
+   "kind": "add",
+   "date": "2026-10-20",
+   "end": "2026-10-20",
+   "port": "石垣港",
+   "ship": "スター・ナビゲーター",
+   "official": [
+    "13:00",
+    "21:00"
+   ],
+   "site": null,
+   "src": "nacru",
+   "note": ""
+  },
+  {
+   "kind": "site_only",
+   "date": "2026-10-22",
+   "end": "2026-10-22",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "official": null,
+   "site": [
+    "07:00",
+    "19:00",
+    "2026-10-22"
+   ],
+   "src": "",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-10-23",
+   "end": "2026-10-23",
+   "port": "広島港",
+   "ship": "ルミナーラ",
+   "official": [
+    "08:30",
+    "18:00"
+   ],
+   "site": [
+    "08:00",
+    "18:00",
+    "2026-10-23"
+   ],
+   "src": "hiroshima",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-10-24",
+   "end": "2026-10-24",
+   "port": "広島港",
+   "ship": "ダイヤモンド・プリンセス",
+   "official": [
+    "08:00",
+    "17:00"
+   ],
+   "site": [
+    "06:00",
+    "17:00",
+    "2026-10-24"
+   ],
+   "src": "hiroshima",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "長崎港",
+   "ship": "セレブリティ・ミレニアム",
+   "official": [
+    "07:30",
+    "19:00"
+   ],
+   "site": [
+    "08:00",
+    "19:00",
+    "2026-10-25"
+   ],
+   "src": "nagasaki",
+   "note": ""
+  }
+ ],
+ "fetch_ng": {},
+ "zero_rows": [],
+ "page_err": [],
+ "import_rows": 453,
+ "gone": [
+  {
+   "date": "2026-10-22",
+   "end": "2026-10-22",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "in": "15:00",
+   "out": "22:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-17"
+  },
+  {
+   "date": "2026-10-22",
+   "end": "2026-10-22",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "境港",
+   "ship": "イースタンビーナス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "",
+   "source_title": "境夢みなとターミナル「客船寄港予定」",
+   "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
+   "checked": "2026-10-17"
+  },
+  {
+   "date": "2026-12-15",
+   "end": "2026-12-15",
+   "port": "那覇港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-22",
+   "end": "2026-12-22",
+   "port": "那覇港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  }
+ ],
+ "changed": [
+  [
+   {
+    "date": "2026-10-23",
+    "end": "2026-10-23",
+    "port": "広島港",
+    "ship": "ルミナーラ",
+    "in": "08:00",
+    "out": "18:00",
+    "berth": "五日市-11m,12m岸壁",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-10-23",
+    "end": "2026-10-23",
+    "port": "広島港",
+    "ship": "ルミナーラ",
+    "in": "08:30",
+    "out": "18:00",
+    "berth": "五日市-11m,12m岸壁",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-20",
+    "src_updated": "2026-10-08"
+   }
+  ],
+  [
+   {
+    "date": "2026-10-24",
+    "end": "2026-10-24",
+    "port": "広島港",
+    "ship": "ダイヤモンド・プリンセス",
+    "in": "06:00",
+    "out": "17:00",
+    "berth": "宇品外貿第5バース",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-10-24",
+    "end": "2026-10-24",
+    "port": "広島港",
+    "ship": "ダイヤモンド・プリンセス",
+    "in": "08:00",
+    "out": "17:00",
+    "berth": "宇品外貿第5バース",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-20",
+    "src_updated": "2026-10-08"
+   }
+  ],
+  [
+   {
+    "date": "2026-10-25",
+    "end": "2026-10-25",
+    "port": "長崎港",
+    "ship": "セレブリティ・ミレニアム",
+    "in": "08:00",
+    "out": "19:00",
+    "berth": "松が枝",
+    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-10-25",
+    "end": "2026-10-25",
+    "port": "長崎港",
+    "ship": "セレブリティ・ミレニアム",
+    "in": "07:30",
+    "out": "19:00",
+    "berth": "松が枝",
+    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+    "checked": "2026-10-20",
+    "src_updated": "2026-10-20"
+   }
+  ]
+ ],
+ "added": 21,
+ "clash": [],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "ビジオ"
+ ],
+ "count_warn": [],
+ "count_first": [],
+ "upcoming": {
+  "yokohama": 31,
+  "tokyo": 40,
+  "shimizu": 17,
+  "osaka": 15,
+  "kobe": 23,
+  "kanazawa": 11,
+  "sakaiminato": 8,
+  "niigata": 9,
+  "nagasaki": 61,
+  "hakata": 18,
+  "kagoshima": 28,
+  "hiroshima": 41,
+  "kochi": 44,
+  "sasebo": 13,
+  "matsuyama": 1,
+  "hososhima": 3,
+  "nacru": 752,
+  "hakodate": 13,
+  "aomori": 7,
+  "akita": 5,
+  "sakata": 7,
+  "miyako": 3,
+  "aburatsu": 2,
+  "beppu": 7,
+  "tokushima": 7
+ },
+ "cross_counts": {
+  "那覇港": {
+   "裏付けあり": 4,
+   "食い違いの可能性": 0,
+   "材料なし": 9
+  },
+  "東京港": {
+   "裏付けあり": 13,
+   "食い違いの可能性": 1,
+   "材料なし": 4
+  }
+ },
+ "cross_bad": [
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "東京港",
+   "ship": "スター・シーカー",
+   "in": "08:00",
+   "out": "16:00",
+   "src": "tokyo",
+   "support": [
+    "清水港 10/25（08:00–17:00、次港：東京、出典 shimizu）"
+   ],
+   "conflict": [
+    "清水港 10/27（08:00–17:00、次港：東京、出典 shimizu） だが、東京港の公式の行と日付が合わない（2日以内に合う行がない）"
+   ],
+   "cls": "食い違いの可能性"
+  }
+ ],
+ "cross_orphans": [
+  {
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "evidence": "鹿児島港 10/21（11:00–20:00、次港：那覇、出典 kagoshima）"
+  }
+ ],
+ "src_updated": {
+  "yokohama": {
+   "date": "2026-10-19",
+   "where": "ページの最終更新日"
+  },
+  "tokyo": {
+   "date": "",
+   "where": ""
+  },
+  "shimizu": {
+   "date": "2026-10-13",
+   "where": "PDF「…現在」"
+  },
+  "osaka": {
+   "date": "2026-10-06",
+   "where": "PDFの更新日"
+  },
+  "kobe": {
+   "date": "2026-10-17",
+   "where": "ページの「更新内容」の最新"
+  },
+  "kanazawa": {
+   "date": "2026-10-08",
+   "where": "表の「…現在」"
+  },
+  "sakaiminato": {
+   "date": "2026-10-17",
+   "where": "PDFの更新日"
+  },
+  "niigata": {
+   "date": "2026-06-23",
+   "where": "PDF「…現在」"
+  },
+  "nagasaki": {
+   "date": "2026-10-20",
+   "where": "PDFの更新日"
+  },
+  "hakata": {
+   "date": "2026-10-16",
+   "where": "PDF「…現在」"
+  },
+  "kagoshima": {
+   "date": "2026-10-08",
+   "where": "PDF「…現在」"
+  },
+  "hiroshima": {
+   "date": "2026-10-08",
+   "where": "ページの近い期間の表「(M月D日更新)」"
+  },
+  "kochi": {
+   "date": "2026-10-05",
+   "where": "ページ「…時点」"
+  },
+  "sasebo": {
+   "date": "2026-10-07",
+   "where": "PDF「…更新」"
+  },
+  "matsuyama": {
+   "date": "2026-07-31",
+   "where": "表の「…現在」"
+  },
+  "hososhima": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "nacru": {
+   "date": "",
+   "where": ""
+  },
+  "hakodate": {
+   "date": "2026-10-03",
+   "where": "ページの更新日"
+  },
+  "aomori": {
+   "date": "2026-10-01",
+   "where": "PDF「…時点」"
+  },
+  "akita": {
+   "date": "2026-10-19",
+   "where": "ページの更新日"
+  },
+  "sakata": {
+   "date": "2026-09-16",
+   "where": "ページの更新日"
+  },
+  "miyako": {
+   "date": "2026-10-14",
+   "where": "ページの更新日"
+  },
+  "aburatsu": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "miyazaki": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "beppu": {
+   "date": "2026-09-30",
+   "where": "ページの更新日"
+  },
+  "tokushima": {
+   "date": "2026-09-02",
+   "where": "表の「…更新」"
+  }
+ },
+ "check_err": [],
+ "notify": 14
+}
