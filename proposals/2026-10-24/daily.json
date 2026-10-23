@@ -1,0 +1,1429 @@
+{
+ "date": "2026-10-24",
+ "diffs": [
+  {
+   "kind": "time",
+   "date": "2026-10-24",
+   "end": "2026-10-24",
+   "port": "博多港",
+   "ship": "ルミナーラ",
+   "official": [
+    "08:30",
+    "21:00"
+   ],
+   "site": [
+    "09:00",
+    "21:00",
+    "2026-10-24"
+   ],
+   "src": "hakata",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-10-25",
+   "end": "2026-10-26",
+   "port": "那覇港",
+   "ship": "アザマラ・パシュート",
+   "official": [
+    "08:00",
+    "18:00"
+   ],
+   "site": null,
+   "src": "nacru",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "石垣港",
+   "ship": "バイキング・オリオン",
+   "official": [
+    "09:00",
+    "19:00"
+   ],
+   "site": null,
+   "src": "nacru",
+   "note": ""
+  },
+  {
+   "kind": "site_only",
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "那覇港",
+   "ship": "アザマラ・パシュート",
+   "official": null,
+   "site": [
+    "08:00",
+    "18:00",
+    "2026-10-26"
+   ],
+   "src": "",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-11-04",
+   "end": "2026-11-04",
+   "port": "博多港",
+   "ship": "ウエステルダム",
+   "official": [
+    "07:15",
+    "18:00"
+   ],
+   "site": [
+    "08:00",
+    "18:00",
+    "2026-11-04"
+   ],
+   "src": "hakata",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-11-07",
+   "end": "2026-11-07",
+   "port": "広島港",
+   "ship": "ノルウェージャン・ジェイド",
+   "official": [
+    "06:00",
+    "19:00"
+   ],
+   "site": [
+    "10:00",
+    "19:00",
+    "2026-11-07"
+   ],
+   "src": "hiroshima",
+   "note": ""
+  },
+  {
+   "kind": "time",
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "那覇港",
+   "ship": "ドリーム",
+   "official": [
+    "08:30",
+    "19:00"
+   ],
+   "site": [
+    "08:00",
+    "19:00",
+    "2026-11-12"
+   ],
+   "src": "nacru",
+   "note": ""
+  }
+ ],
+ "fetch_ng": {
+  "shimizu": "HTTPError('403 Client Error: Forbidden for url: https://www.shimizu-port.jp/shipinfo_R08.html')",
+  "kobe": "HTTPError('503 Server Error: Service Unavailable for url: https://www.kobe-meriken.or.jp/terminal/eta/')",
+  "nagasaki": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='nagasaki-port.jp', port=443): Max retries exceeded with url: /nagasaki_cruiseschedule/R08_cruiseschedule.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='nagasaki-port.jp', port=443) at 0x25d76c26ad0>, 'Connection to nagasaki-port.jp timed out. (connect timeout=60)'))\"))",
+  "sasebo": "HTTPError('503 Server Error: Service Temporarily Unavailable for url: https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/')"
+ },
+ "zero_rows": [
+  "kanazawa"
+ ],
+ "page_err": [],
+ "import_rows": 418,
+ "gone": [
+  {
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "佐世保港",
+   "ship": "バイキング・オリオン",
+   "in": "07:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "清水港",
+   "ship": "ウエステルダム",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "日の出2号",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "清水港",
+   "ship": "スター・シーカー",
+   "in": "08:00",
+   "out": "17:00",
+   "berth": "日の出1号",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-25",
+   "end": "2026-10-25",
+   "port": "長崎港",
+   "ship": "セレブリティ・ミレニアム",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "佐世保港",
+   "ship": "イースタンビーナス",
+   "in": "08:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "清水港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "15:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅲ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "那覇港",
+   "ship": "アザマラ・パシュート",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-26",
+   "end": "2026-10-26",
+   "port": "長崎港",
+   "ship": "ルミナーラ",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-27",
+   "end": "2026-10-27",
+   "port": "佐世保港",
+   "ship": "シルバー・ムーン",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-27",
+   "end": "2026-10-27",
+   "port": "清水港",
+   "ship": "スター・シーカー",
+   "in": "08:00",
+   "out": "17:00",
+   "berth": "日の出1号",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-27",
+   "end": "2026-10-27",
+   "port": "清水港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "13:00",
+   "out": "19:00",
+   "berth": "日の出2号",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-27",
+   "end": "2026-10-27",
+   "port": "金沢港",
+   "ship": "シーボーン・アンコール",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-27",
+   "end": "2026-10-27",
+   "port": "長崎港",
+   "ship": "セブンシーズ・エクスプローラー",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-28",
+   "end": "2026-10-28",
+   "port": "清水港",
+   "ship": "セレブリティ・ミレニアム",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-28",
+   "end": "2026-10-28",
+   "port": "金沢港",
+   "ship": "三井オーシャンサクラ",
+   "in": "08:00",
+   "out": "16:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-28",
+   "end": "2026-10-28",
+   "port": "長崎港",
+   "ship": "ウエステルダム",
+   "in": "08:00",
+   "out": "20:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-29",
+   "end": "2026-10-29",
+   "port": "金沢港",
+   "ship": "MSCベリッシマ",
+   "in": "09:00",
+   "out": "19:00",
+   "berth": "大浜",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-30",
+   "end": "2026-10-30",
+   "port": "清水港",
+   "ship": "シルバー・ムーン",
+   "in": "07:30",
+   "out": "18:00",
+   "berth": "日の出1号",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-30",
+   "end": "2026-10-30",
+   "port": "清水港",
+   "ship": "セレブリティ・ミレニアム",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-10-31",
+   "end": "2026-10-31",
+   "port": "長崎港",
+   "ship": "スター・シーカー",
+   "in": "10:00",
+   "out": "18:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-02",
+   "end": "2026-11-02",
+   "port": "神戸港",
+   "ship": "セレブリティ・ミレニアム",
+   "in": "06:30",
+   "out": "17:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-03",
+   "end": "2026-11-03",
+   "port": "金沢港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "08:00",
+   "out": "17:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-03",
+   "end": "2026-11-03",
+   "port": "長崎港",
+   "ship": "シルバー・ムーン",
+   "in": "08:00",
+   "out": "17:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-04",
+   "end": "2026-11-04",
+   "port": "清水港",
+   "ship": "シーボーン・アンコール",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-04",
+   "end": "2026-11-04",
+   "port": "金沢港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "15:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-05",
+   "end": "2026-11-05",
+   "port": "佐世保港",
+   "ship": "ルミナーラ",
+   "in": "07:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-06",
+   "end": "2026-11-06",
+   "port": "佐世保港",
+   "ship": "イースタンビーナス",
+   "in": "08:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-06",
+   "end": "2026-11-06",
+   "port": "神戸港",
+   "ship": "ウエステルダム",
+   "in": "06:30",
+   "out": "23:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-06",
+   "end": "2026-11-06",
+   "port": "長崎港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-07",
+   "end": "2026-11-07",
+   "port": "金沢港",
+   "ship": "MSCベリッシマ",
+   "in": "09:00",
+   "out": "19:00",
+   "berth": "大浜",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-09",
+   "end": "2026-11-09",
+   "port": "清水港",
+   "ship": "ウエステルダム",
+   "in": "07:00",
+   "out": "15:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-10",
+   "end": "2026-11-10",
+   "port": "清水港",
+   "ship": "三井オーシャンサクラ",
+   "in": "10:00",
+   "out": "17:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-10",
+   "end": "2026-11-10",
+   "port": "神戸港",
+   "ship": "ルミナーラ",
+   "in": "08:00",
+   "out": "20:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-11",
+   "end": "2026-11-11",
+   "port": "清水港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "境港",
+   "ship": "イースタンビーナス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "",
+   "source_title": "境夢みなとターミナル「客船寄港予定」",
+   "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
+   "checked": "2026-10-17"
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "長崎港",
+   "ship": "シーボーン・アンコール",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-12",
+   "end": "2026-11-12",
+   "port": "長崎港",
+   "ship": "ルミナーラ",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "出島",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-13",
+   "end": "2026-11-13",
+   "port": "清水港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-13",
+   "end": "2026-11-13",
+   "port": "金沢港",
+   "ship": "イースタンビーナス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-15",
+   "end": "2026-11-15",
+   "port": "佐世保港",
+   "ship": "飛鳥Ⅱ",
+   "in": "09:00",
+   "out": "15:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-15",
+   "end": "2026-11-15",
+   "port": "神戸港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "08:00",
+   "out": "20:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-15",
+   "end": "2026-11-15",
+   "port": "金沢港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "無量寺",
+   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
+   "source_url": "https://www.k-port.jp/cruise/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-17",
+   "end": "2026-11-17",
+   "port": "長崎港",
+   "ship": "ビジオ",
+   "in": "14:00",
+   "out": "22:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-18",
+   "end": "2026-11-18",
+   "port": "佐世保港",
+   "ship": "スター・ナビゲーター",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-18",
+   "end": "2026-11-18",
+   "port": "長崎港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-19",
+   "end": "2026-11-19",
+   "port": "佐世保港",
+   "ship": "MSCベリッシマ",
+   "in": "07:50",
+   "out": "16:10",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-19",
+   "end": "2026-11-19",
+   "port": "長崎港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-21",
+   "end": "2026-11-21",
+   "port": "清水港",
+   "ship": "飛鳥Ⅲ",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-23",
+   "end": "2026-11-23",
+   "port": "長崎港",
+   "ship": "イースタンビーナス",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "出島",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-23",
+   "end": "2026-11-23",
+   "port": "長崎港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-24",
+   "end": "2026-11-24",
+   "port": "清水港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-25",
+   "end": "2026-11-25",
+   "port": "長崎港",
+   "ship": "スター・ナビゲーター",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-26",
+   "end": "2026-11-26",
+   "port": "長崎港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-27",
+   "end": "2026-11-27",
+   "port": "長崎港",
+   "ship": "イースタンビーナス",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-28",
+   "end": "2026-11-28",
+   "port": "長崎港",
+   "ship": "ダイヤモンド・プリンセス",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-29",
+   "end": "2026-11-29",
+   "port": "清水港",
+   "ship": "ノルウェージャン・ジェイド",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "",
+   "source_title": "清水港客船誘致委員会「客船寄港予定」",
+   "source_url": "https://www.shimizu-port.jp/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-11-30",
+   "end": "2026-11-30",
+   "port": "佐世保港",
+   "ship": "イースタンビーナス",
+   "in": "08:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-01",
+   "end": "2026-12-02",
+   "port": "神戸港",
+   "ship": "スター・ナビゲーター",
+   "in": "15:00",
+   "out": "01:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-01",
+   "end": "2026-12-01",
+   "port": "那覇港",
+   "ship": "ドリーム",
+   "in": "08:30",
+   "out": "20:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-02",
+   "end": "2026-12-03",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅲ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-07",
+   "end": "2026-12-08",
+   "port": "神戸港",
+   "ship": "パシフィック・ワールド",
+   "in": "14:00",
+   "out": "09:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-08",
+   "end": "2026-12-08",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅲ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-11",
+   "end": "2026-12-11",
+   "port": "佐世保港",
+   "ship": "イースタンビーナス",
+   "in": "08:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-11",
+   "end": "2026-12-11",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅲ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-13",
+   "end": "2026-12-13",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅲ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-14",
+   "end": "2026-12-14",
+   "port": "長崎港",
+   "ship": "イースタンビーナス",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-15",
+   "end": "2026-12-15",
+   "port": "那覇港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-16",
+   "end": "2026-12-16",
+   "port": "神戸港",
+   "ship": "パシフィック・ワールド",
+   "in": "13:00",
+   "out": "17:00",
+   "berth": "S-4O1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-16",
+   "end": "2026-12-16",
+   "port": "神戸港",
+   "ship": "三井オーシャンフジ",
+   "in": "07:00",
+   "out": "11:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-17",
+   "end": "2026-12-17",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅱ",
+   "in": "10:30",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-21",
+   "end": "2026-12-21",
+   "port": "佐世保港",
+   "ship": "イースタンビーナス",
+   "in": "08:50",
+   "out": "18:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-21",
+   "end": "2026-12-21",
+   "port": "佐世保港",
+   "ship": "三井オーシャンフジ",
+   "in": "13:30",
+   "out": "23:00",
+   "berth": "浦頭",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-22",
+   "end": "2026-12-22",
+   "port": "那覇港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-23",
+   "end": "2026-12-23",
+   "port": "佐世保港",
+   "ship": "スター・ナビゲーター",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "三浦",
+   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
+   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-23",
+   "end": "2026-12-23",
+   "port": "神戸港",
+   "ship": "三井オーシャンサクラ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-23",
+   "end": "2026-12-23",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅱ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-24",
+   "end": "2026-12-24",
+   "port": "長崎港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-25",
+   "end": "2026-12-25",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅱ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-26",
+   "end": "2026-12-26",
+   "port": "神戸港",
+   "ship": "三井オーシャンサクラ",
+   "in": "10:00",
+   "out": "18:00",
+   "berth": "S-4Q1/2",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-26",
+   "end": "2026-12-26",
+   "port": "神戸港",
+   "ship": "飛鳥Ⅱ",
+   "in": "09:00",
+   "out": "17:00",
+   "berth": "NAKA-BC",
+   "source_title": "神戸観光局「客船入港予定」",
+   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2026-12-28",
+   "end": "2026-12-28",
+   "port": "長崎港",
+   "ship": "イースタンビーナス",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2027-01-01",
+   "end": "2027-01-01",
+   "port": "長崎港",
+   "ship": "ドリーム",
+   "in": "12:00",
+   "out": "22:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  },
+  {
+   "date": "2027-01-07",
+   "end": "2027-01-07",
+   "port": "長崎港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-10-18"
+  }
+ ],
+ "changed": [
+  [
+   {
+    "date": "2026-10-24",
+    "end": "2026-10-24",
+    "port": "博多港",
+    "ship": "ルミナーラ",
+    "in": "09:00",
+    "out": "21:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-10-24",
+    "end": "2026-10-24",
+    "port": "博多港",
+    "ship": "ルミナーラ",
+    "in": "08:30",
+    "out": "21:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-24",
+    "src_updated": "2026-10-21"
+   }
+  ],
+  [
+   {
+    "date": "2026-11-04",
+    "end": "2026-11-04",
+    "port": "博多港",
+    "ship": "ウエステルダム",
+    "in": "08:00",
+    "out": "18:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-11-04",
+    "end": "2026-11-04",
+    "port": "博多港",
+    "ship": "ウエステルダム",
+    "in": "07:15",
+    "out": "18:00",
+    "berth": "中央5岸",
+    "source_title": "福岡市「博多港クルーズ船寄港予定」",
+    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+    "checked": "2026-10-24",
+    "src_updated": "2026-10-21"
+   }
+  ],
+  [
+   {
+    "date": "2026-11-07",
+    "end": "2026-11-07",
+    "port": "広島港",
+    "ship": "ノルウェージャン・ジェイド",
+    "in": "10:00",
+    "out": "19:00",
+    "berth": "宇品外貿第5バース",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-11-07",
+    "end": "2026-11-07",
+    "port": "広島港",
+    "ship": "ノルウェージャン・ジェイド",
+    "in": "06:00",
+    "out": "19:00",
+    "berth": "宇品外貿第5バース",
+    "source_title": "広島県「広島港客船入港予定」",
+    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
+    "checked": "2026-10-24",
+    "src_updated": "2026-10-20"
+   }
+  ],
+  [
+   {
+    "date": "2026-11-12",
+    "end": "2026-11-12",
+    "port": "那覇港",
+    "ship": "ドリーム",
+    "in": "08:00",
+    "out": "19:00",
+    "berth": "第2CB",
+    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+    "source_url": "https://nahaport.jp/users/kyakusen/",
+    "checked": "2026-10-18"
+   },
+   {
+    "date": "2026-11-12",
+    "end": "2026-11-12",
+    "port": "那覇港",
+    "ship": "ドリーム",
+    "in": "08:30",
+    "out": "19:00",
+    "berth": "第2CB",
+    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+    "source_url": "https://nahaport.jp/users/kyakusen/",
+    "checked": "2026-10-24",
+    "src_updated": ""
+   }
+  ]
+ ],
+ "added": 27,
+ "clash": [],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "ビジオ"
+ ],
+ "count_warn": [
+  {
+   "src": "shimizu",
+   "kind": "fetch_ng",
+   "msg": "取得に失敗：HTTPError('403 Client Error: Forbidden for url: https://www.shimizu-port.jp/shipinfo_R08.html')（前に取得できたとき 2026-10-22：全85行・これから16行）"
+  },
+  {
+   "src": "kobe",
+   "kind": "fetch_ng",
+   "msg": "取得に失敗：HTTPError('503 Server Error: Service Unavailable for url: https://www.kobe-meriken.or.jp/terminal/eta/')（前に取得できたとき 2026-10-23：全39行・これから21行）"
+  },
+  {
+   "src": "kanazawa",
+   "kind": "zero",
+   "msg": "ページは取得できたが0行（表・ページの形が変わった可能性）（前に取得できたとき 2026-10-21：全62行・これから10行）"
+  },
+  {
+   "src": "nagasaki",
+   "kind": "fetch_ng",
+   "msg": "取得に失敗：ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='nagasaki-port.jp', port=443): Max retries exceeded with url: /na（前に取得できたとき 2026-10-23：全204行・これから66行）"
+  },
+  {
+   "src": "sasebo",
+   "kind": "fetch_ng",
+   "msg": "取得に失敗：HTTPError('503 Server Error: Service Temporarily Unavailable for url: https://www.nagasaki-tabinet.com/houjin/report/cru（前に取得できたとき 2026-10-22：全73行・これから13行）"
+  }
+ ],
+ "count_first": [],
+ "upcoming": {
+  "yokohama": 30,
+  "tokyo": 39,
+  "osaka": 13,
+  "sakaiminato": 6,
+  "niigata": 8,
+  "hakata": 16,
+  "kagoshima": 25,
+  "hiroshima": 37,
+  "kochi": 41,
+  "matsuyama": 1,
+  "hososhima": 3,
+  "nacru": 890,
+  "hakodate": 12,
+  "aomori": 6,
+  "akita": 4,
+  "sakata": 6,
+  "miyako": 2,
+  "aburatsu": 2,
+  "beppu": 6,
+  "tokushima": 7
+ },
+ "cross_counts": {
+  "東京港": {
+   "裏付けあり": 9,
+   "食い違いの可能性": 0,
+   "材料なし": 11
+  },
+  "那覇港": {
+   "裏付けあり": 3,
+   "食い違いの可能性": 0,
+   "材料なし": 9
+  }
+ },
+ "cross_bad": [],
+ "cross_orphans": [],
+ "src_updated": {
+  "yokohama": {
+   "date": "2026-10-19",
+   "where": "ページの最終更新日"
+  },
+  "tokyo": {
+   "date": "",
+   "where": ""
+  },
+  "shimizu": {
+   "date": "",
+   "where": ""
+  },
+  "osaka": {
+   "date": "2026-10-06",
+   "where": "PDFの更新日"
+  },
+  "kobe": {
+   "date": "",
+   "where": ""
+  },
+  "kanazawa": {
+   "date": "",
+   "where": ""
+  },
+  "sakaiminato": {
+   "date": "2026-10-17",
+   "where": "PDFの更新日"
+  },
+  "niigata": {
+   "date": "2026-06-23",
+   "where": "PDF「…現在」"
+  },
+  "nagasaki": {
+   "date": "",
+   "where": ""
+  },
+  "hakata": {
+   "date": "2026-10-21",
+   "where": "PDF「…現在」"
+  },
+  "kagoshima": {
+   "date": "2026-10-08",
+   "where": "PDF「…現在」"
+  },
+  "hiroshima": {
+   "date": "2026-10-20",
+   "where": "PDFの2行目の日付"
+  },
+  "kochi": {
+   "date": "2026-10-23",
+   "where": "ページ「…時点」"
+  },
+  "sasebo": {
+   "date": "",
+   "where": ""
+  },
+  "matsuyama": {
+   "date": "2026-07-31",
+   "where": "表の「…現在」"
+  },
+  "hososhima": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "nacru": {
+   "date": "",
+   "where": ""
+  },
+  "hakodate": {
+   "date": "2026-10-03",
+   "where": "ページの更新日"
+  },
+  "aomori": {
+   "date": "2026-10-01",
+   "where": "PDF「…時点」"
+  },
+  "akita": {
+   "date": "2026-10-20",
+   "where": "ページの更新日"
+  },
+  "sakata": {
+   "date": "2026-09-16",
+   "where": "ページの更新日"
+  },
+  "miyako": {
+   "date": "2026-10-14",
+   "where": "ページの更新日"
+  },
+  "aburatsu": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "miyazaki": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "beppu": {
+   "date": "2026-09-30",
+   "where": "ページの更新日"
+  },
+  "tokushima": {
+   "date": "2026-09-02",
+   "where": "表の「…更新」"
+  }
+ },
+ "check_err": [],
+ "notify": 105
+}
