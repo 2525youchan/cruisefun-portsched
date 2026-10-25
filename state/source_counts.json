@@ -1,51 +1,51 @@
 {
  "aburatsu": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 25,
-  "upcoming": 2
+  "upcoming": 1
  },
  "akita": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 23,
-  "upcoming": 4
+  "upcoming": 3
  },
  "aomori": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 48,
   "upcoming": 6
  },
  "beppu": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 9,
   "upcoming": 6
  },
  "hakata": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 35,
   "upcoming": 15
  },
  "hakodate": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 76,
   "upcoming": 10
  },
  "hiroshima": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 111,
-  "upcoming": 36
+  "upcoming": 35
  },
  "hososhima": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 27,
   "upcoming": 2
  },
  "kagoshima": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 128,
   "upcoming": 24
  },
  "kanazawa": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 61,
   "upcoming": 7
  },
@@ -55,52 +55,52 @@
   "upcoming": 21
  },
  "kochi": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 52,
   "upcoming": 40
  },
  "matsuyama": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 39,
   "upcoming": 1
  },
  "miyako": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 25,
   "upcoming": 2
  },
  "miyazaki": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 4,
   "upcoming": 0
  },
  "nacru": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 1125,
   "upcoming": 890
  },
  "nagasaki": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 198,
-  "upcoming": 60
+  "upcoming": 59
  },
  "niigata": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 30,
-  "upcoming": 8
+  "upcoming": 7
  },
  "osaka": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 86,
   "upcoming": 13
  },
  "sakaiminato": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 13,
   "upcoming": 6
  },
  "sakata": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 25,
   "upcoming": 6
  },
@@ -115,17 +115,17 @@
   "upcoming": 16
  },
  "tokushima": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 19,
   "upcoming": 7
  },
  "tokyo": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 386,
-  "upcoming": 38
+  "upcoming": 37
  },
  "yokohama": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rows": 192,
   "upcoming": 30
  }
