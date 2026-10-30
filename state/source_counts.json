@@ -1,132 +1,132 @@
 {
  "aburatsu": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 25,
   "upcoming": 1
  },
  "akita": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 23,
-  "upcoming": 3
+  "upcoming": 2
  },
  "aomori": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 48,
   "upcoming": 6
  },
  "beppu": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 9,
-  "upcoming": 6
+  "upcoming": 5
  },
  "hakata": {
-  "date": "2026-10-27",
-  "rows": 35,
+  "date": "2026-10-30",
+  "rows": 37,
   "upcoming": 14
  },
  "hakodate": {
-  "date": "2026-10-27",
-  "rows": 76,
-  "upcoming": 9
+  "date": "2026-10-30",
+  "rows": 73,
+  "upcoming": 7
  },
  "hiroshima": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 111,
-  "upcoming": 35
+  "upcoming": 34
  },
  "hososhima": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 27,
   "upcoming": 2
  },
  "kagoshima": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 128,
-  "upcoming": 23
+  "upcoming": 19
  },
  "kanazawa": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 61,
-  "upcoming": 7
+  "upcoming": 4
  },
  "kobe": {
-  "date": "2026-10-23",
+  "date": "2026-10-30",
   "rows": 39,
-  "upcoming": 21
+  "upcoming": 18
  },
  "kochi": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 52,
-  "upcoming": 40
+  "upcoming": 39
  },
  "matsuyama": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 39,
   "upcoming": 1
  },
  "miyako": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 25,
   "upcoming": 2
  },
  "miyazaki": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 4,
   "upcoming": 0
  },
  "nacru": {
-  "date": "2026-10-27",
-  "rows": 1125,
-  "upcoming": 888
+  "date": "2026-10-30",
+  "rows": 1114,
+  "upcoming": 876
  },
  "nagasaki": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 198,
-  "upcoming": 58
+  "upcoming": 57
  },
  "niigata": {
-  "date": "2026-10-27",
-  "rows": 30,
-  "upcoming": 7
+  "date": "2026-10-30",
+  "rows": 28,
+  "upcoming": 5
  },
  "osaka": {
-  "date": "2026-10-27",
-  "rows": 86,
-  "upcoming": 13
+  "date": "2026-10-30",
+  "rows": 85,
+  "upcoming": 11
  },
  "sakaiminato": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 13,
   "upcoming": 5
  },
  "sakata": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 25,
-  "upcoming": 5
+  "upcoming": 3
  },
  "sasebo": {
-  "date": "2026-10-22",
+  "date": "2026-10-30",
   "rows": 73,
-  "upcoming": 13
+  "upcoming": 10
  },
  "shimizu": {
-  "date": "2026-10-22",
-  "rows": 85,
-  "upcoming": 16
+  "date": "2026-10-30",
+  "rows": 87,
+  "upcoming": 12
  },
  "tokushima": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 19,
   "upcoming": 6
  },
  "tokyo": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 386,
-  "upcoming": 36
+  "upcoming": 34
  },
  "yokohama": {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "rows": 192,
-  "upcoming": 30
+  "upcoming": 27
  }
 }
