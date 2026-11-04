@@ -38,8 +38,14 @@ def _place(s):
 
 def _parse(text, url):
     text = common.z2h(text)
-    m = re.search(r'(\d{4})年\s*[)）]?\s*大阪港', text) or re.search(r'[（(](\d{4})年[)）]', text)
-    year = int(m.group(1)) if m else common.TODAY.year
+    # 表題の年。「令和8年(2026年)～令和9年(2027年) 大阪港 …予定表」のように2年にまたがるときは、早いほうの年（2026-11-04 の版から）
+    title = next((l for l in text.splitlines() if '大阪港' in l and '予定表' in l and re.search(r'\d{4}年', l)), '')
+    years = [int(x) for x in re.findall(r'(\d{4})年', title)]
+    if years:
+        year = min(years)
+    else:
+        m = re.search(r'(\d{4})年\s*[)）]?\s*大阪港', text) or re.search(r'[（(](\d{4})年[)）]', text)
+        year = int(m.group(1)) if m else common.TODAY.year
     lines = [l.strip() for l in text.splitlines() if l.strip()]
     rows = []
     section = 'plan'
