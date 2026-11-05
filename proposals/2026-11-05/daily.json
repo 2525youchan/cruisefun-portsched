@@ -1,0 +1,167 @@
+{
+ "date": "2026-11-05",
+ "diffs": [],
+ "fetch_ng": {},
+ "zero_rows": [],
+ "page_err": [],
+ "import_rows": 344,
+ "gone": [],
+ "changed": [],
+ "added": 18,
+ "clash": [],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "スペクトラム・オブ・ザ・シー",
+  "パンスター・ミラクル",
+  "ビジオ"
+ ],
+ "count_warn": [],
+ "count_first": [],
+ "upcoming": {
+  "yokohama": 24,
+  "tokyo": 29,
+  "shimizu": 9,
+  "osaka": 9,
+  "kobe": 17,
+  "kanazawa": 2,
+  "sakaiminato": 3,
+  "niigata": 4,
+  "nagasaki": 55,
+  "hakata": 16,
+  "kagoshima": 16,
+  "hiroshima": 32,
+  "kochi": 38,
+  "sasebo": 10,
+  "matsuyama": 4,
+  "hososhima": 2,
+  "nacru": 870,
+  "hakodate": 4,
+  "aomori": 3,
+  "sakata": 2,
+  "aburatsu": 1,
+  "beppu": 5,
+  "tokushima": 6
+ },
+ "cross_counts": {
+  "東京港": {
+   "裏付けあり": 7,
+   "食い違いの可能性": 0,
+   "材料なし": 4
+  },
+  "那覇港": {
+   "裏付けあり": 5,
+   "食い違いの可能性": 0,
+   "材料なし": 9
+  }
+ },
+ "cross_bad": [],
+ "cross_orphans": [],
+ "src_updated": {
+  "yokohama": {
+   "date": "2026-10-26",
+   "where": "ページの最終更新日"
+  },
+  "tokyo": {
+   "date": "",
+   "where": ""
+  },
+  "shimizu": {
+   "date": "2026-10-28",
+   "where": "PDF「…現在」"
+  },
+  "osaka": {
+   "date": "2026-11-04",
+   "where": "PDFの更新日"
+  },
+  "kobe": {
+   "date": "2026-10-17",
+   "where": "ページの「更新内容」の最新"
+  },
+  "kanazawa": {
+   "date": "2026-10-21",
+   "where": "表の「…現在」"
+  },
+  "sakaiminato": {
+   "date": "2026-11-01",
+   "where": "PDFの更新日"
+  },
+  "niigata": {
+   "date": "2026-10-27",
+   "where": "PDF「…現在」"
+  },
+  "nagasaki": {
+   "date": "2026-10-27",
+   "where": "PDFの更新日"
+  },
+  "hakata": {
+   "date": "2026-11-01",
+   "where": "PDF「…現在」"
+  },
+  "kagoshima": {
+   "date": "2026-10-08",
+   "where": "PDF「…現在」"
+  },
+  "hiroshima": {
+   "date": "2026-11-04",
+   "where": "PDFの2行目の日付"
+  },
+  "kochi": {
+   "date": "2026-11-04",
+   "where": "ページ「…時点」"
+  },
+  "sasebo": {
+   "date": "2026-10-22",
+   "where": "PDF「…更新」"
+  },
+  "matsuyama": {
+   "date": "2026-11-01",
+   "where": "表の「…現在」"
+  },
+  "hososhima": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "nacru": {
+   "date": "",
+   "where": ""
+  },
+  "hakodate": {
+   "date": "2026-10-27",
+   "where": "ページの更新日"
+  },
+  "aomori": {
+   "date": "2026-10-30",
+   "where": "PDF「…時点」"
+  },
+  "akita": {
+   "date": "2026-10-20",
+   "where": "ページの更新日"
+  },
+  "sakata": {
+   "date": "2026-10-28",
+   "where": "ページの更新日"
+  },
+  "miyako": {
+   "date": "2026-10-27",
+   "where": "ページの更新日"
+  },
+  "aburatsu": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "miyazaki": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "beppu": {
+   "date": "2026-10-30",
+   "where": "ページの更新日"
+  },
+  "tokushima": {
+   "date": "2026-09-02",
+   "where": "表の「…更新」"
+  }
+ },
+ "check_err": [],
+ "notify": 0
+}
