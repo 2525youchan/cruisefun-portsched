@@ -1,0 +1,453 @@
+{
+ "date": "2026-11-08",
+ "diffs": [
+  {
+   "kind": "time",
+   "date": "2026-11-08",
+   "end": "2026-11-09",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "official": [
+    "11:00",
+    "14:00"
+   ],
+   "site": [
+    "11:30",
+    "14:00",
+    "2026-11-09"
+   ],
+   "src": "nacru",
+   "note": ""
+  },
+  {
+   "kind": "site_only",
+   "date": "2026-11-09",
+   "end": "2026-11-09",
+   "port": "宮古島・平良港",
+   "ship": "スター・シーカー",
+   "official": null,
+   "site": [
+    "08:00",
+    "16:00",
+    "2026-11-09"
+   ],
+   "src": "",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-11-16",
+   "end": "2026-11-16",
+   "port": "博多港",
+   "ship": "ドリーム",
+   "official": [
+    "12:00",
+    "22:00"
+   ],
+   "site": null,
+   "src": "hakata",
+   "note": ""
+  },
+  {
+   "kind": "add",
+   "date": "2026-11-18",
+   "end": "2026-11-18",
+   "port": "博多港",
+   "ship": "ビジオ",
+   "official": [
+    "07:00",
+    "15:00"
+   ],
+   "site": null,
+   "src": "hakata",
+   "note": "船ページなし（資料の船名：VISIO）"
+  },
+  {
+   "kind": "add",
+   "date": "2026-11-20",
+   "end": "2026-11-20",
+   "port": "博多港",
+   "ship": "ドリーム",
+   "official": [
+    "12:00",
+    "22:00"
+   ],
+   "site": null,
+   "src": "hakata",
+   "note": ""
+  }
+ ],
+ "fetch_ng": {},
+ "zero_rows": [],
+ "page_err": [],
+ "import_rows": 329,
+ "gone": [
+  {
+   "date": "2026-11-09",
+   "end": "2026-11-09",
+   "port": "宮古島・平良港",
+   "ship": "スター・シーカー",
+   "in": "08:00",
+   "out": "16:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-05",
+   "end": "2027-01-05",
+   "port": "宮古島・平良港",
+   "ship": "スター・ボイジャー",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-06",
+   "end": "2027-01-06",
+   "port": "那覇港",
+   "ship": "スター・ボイジャー",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-12",
+   "end": "2027-01-12",
+   "port": "宮古島・平良港",
+   "ship": "スター・ボイジャー",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-13",
+   "end": "2027-01-13",
+   "port": "那覇港",
+   "ship": "スター・ボイジャー",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-16",
+   "end": "2027-01-16",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "17:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-20",
+   "end": "2027-01-20",
+   "port": "那覇港",
+   "ship": "スター・ボイジャー",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-26",
+   "end": "2027-01-26",
+   "port": "那覇港",
+   "ship": "スター・ボイジャー",
+   "in": "15:00",
+   "out": "23:59",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-01-27",
+   "end": "2027-01-27",
+   "port": "宮古島・平良港",
+   "ship": "スター・ボイジャー",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-02",
+   "end": "2027-02-02",
+   "port": "宮古島・平良港",
+   "ship": "スター・ボイジャー",
+   "in": "08:00",
+   "out": "18:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-03",
+   "end": "2027-02-03",
+   "port": "那覇港",
+   "ship": "スター・ボイジャー",
+   "in": "07:00",
+   "out": "18:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-04",
+   "src_updated": ""
+  }
+ ],
+ "changed": [
+  [
+   {
+    "date": "2026-11-08",
+    "end": "2026-11-09",
+    "port": "那覇港",
+    "ship": "スペクトラム・オブ・ザ・シーズ",
+    "in": "11:30",
+    "out": "14:00",
+    "berth": "第2CB",
+    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+    "source_url": "https://nahaport.jp/users/kyakusen/",
+    "checked": "2026-11-04",
+    "src_updated": ""
+   },
+   {
+    "date": "2026-11-08",
+    "end": "2026-11-09",
+    "port": "那覇港",
+    "ship": "スペクトラム・オブ・ザ・シーズ",
+    "in": "11:00",
+    "out": "14:00",
+    "berth": "第2CB",
+    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+    "source_url": "https://nahaport.jp/users/kyakusen/",
+    "checked": "2026-11-08",
+    "src_updated": ""
+   }
+  ],
+  [
+   {
+    "date": "2026-12-12",
+    "end": "2026-12-12",
+    "port": "鹿児島港",
+    "ship": "イースタンビーナス",
+    "in": "09:00",
+    "out": "17:00",
+    "berth": "マリンポートかごしま",
+    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
+    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
+    "checked": "2026-11-04",
+    "src_updated": "2026-10-08"
+   },
+   {
+    "date": "2026-12-12",
+    "end": "2026-12-12",
+    "port": "鹿児島港",
+    "ship": "イースタンビーナス",
+    "in": "08:00",
+    "out": "17:00",
+    "berth": "マリンポートかごしま",
+    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
+    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
+    "checked": "2026-11-08",
+    "src_updated": "2026-11-06"
+   }
+  ]
+ ],
+ "added": 26,
+ "clash": [
+  {
+   "date": "2026-12-29",
+   "ship": "アドラ・マジック・シティ",
+   "calls": [
+    "那覇港 12-29 07:00〜12-29 20:00",
+    "長崎港 12-29 08:00〜12-29 20:00"
+   ]
+  }
+ ],
+ "no_ship_page": [
+  "ADORA FLORA CITY",
+  "スペクトラム・オブ・ザ・シー",
+  "パンスター・ミラクル",
+  "ビジオ"
+ ],
+ "count_warn": [],
+ "count_first": [],
+ "upcoming": {
+  "yokohama": 24,
+  "tokyo": 27,
+  "shimizu": 9,
+  "osaka": 8,
+  "kobe": 16,
+  "kanazawa": 1,
+  "sakaiminato": 3,
+  "niigata": 3,
+  "nagasaki": 55,
+  "hakata": 18,
+  "kagoshima": 16,
+  "hiroshima": 31,
+  "kochi": 37,
+  "sasebo": 8,
+  "matsuyama": 4,
+  "hososhima": 2,
+  "nacru": 843,
+  "hakodate": 3,
+  "aomori": 1,
+  "sakata": 1,
+  "aburatsu": 1,
+  "beppu": 5,
+  "tokushima": 6
+ },
+ "cross_counts": {
+  "東京港": {
+   "裏付けあり": 7,
+   "食い違いの可能性": 0,
+   "材料なし": 2
+  },
+  "那覇港": {
+   "裏付けあり": 3,
+   "食い違いの可能性": 0,
+   "材料なし": 13
+  }
+ },
+ "cross_bad": [],
+ "cross_orphans": [],
+ "src_updated": {
+  "yokohama": {
+   "date": "2026-10-26",
+   "where": "ページの最終更新日"
+  },
+  "tokyo": {
+   "date": "",
+   "where": ""
+  },
+  "shimizu": {
+   "date": "2026-10-28",
+   "where": "PDF「…現在」"
+  },
+  "osaka": {
+   "date": "2026-11-04",
+   "where": "PDFの更新日"
+  },
+  "kobe": {
+   "date": "",
+   "where": ""
+  },
+  "kanazawa": {
+   "date": "2026-11-05",
+   "where": "表の「…現在」"
+  },
+  "sakaiminato": {
+   "date": "2026-11-01",
+   "where": "PDFの更新日"
+  },
+  "niigata": {
+   "date": "2026-10-27",
+   "where": "PDF「…現在」"
+  },
+  "nagasaki": {
+   "date": "2026-11-06",
+   "where": "PDFの更新日"
+  },
+  "hakata": {
+   "date": "2026-11-05",
+   "where": "PDF「…現在」"
+  },
+  "kagoshima": {
+   "date": "2026-11-06",
+   "where": "PDF「…現在」"
+  },
+  "hiroshima": {
+   "date": "2026-11-04",
+   "where": "PDFの2行目の日付"
+  },
+  "kochi": {
+   "date": "2026-11-04",
+   "where": "ページ「…時点」"
+  },
+  "sasebo": {
+   "date": "2026-10-22",
+   "where": "PDF「…更新」"
+  },
+  "matsuyama": {
+   "date": "2026-11-01",
+   "where": "表の「…現在」"
+  },
+  "hososhima": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "nacru": {
+   "date": "",
+   "where": ""
+  },
+  "hakodate": {
+   "date": "2026-10-27",
+   "where": "ページの更新日"
+  },
+  "aomori": {
+   "date": "2026-10-30",
+   "where": "PDF「…時点」"
+  },
+  "akita": {
+   "date": "2026-10-20",
+   "where": "ページの更新日"
+  },
+  "sakata": {
+   "date": "2026-11-05",
+   "where": "ページの更新日"
+  },
+  "miyako": {
+   "date": "2026-10-27",
+   "where": "ページの更新日"
+  },
+  "aburatsu": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "miyazaki": {
+   "date": "2026-10-14",
+   "where": "ページの更新日（細島・宮崎・油津で共通。PDFは月までしか書いていない）"
+  },
+  "beppu": {
+   "date": "2026-10-30",
+   "where": "ページの更新日"
+  },
+  "tokushima": {
+   "date": "2026-09-02",
+   "where": "表の「…更新」"
+  }
+ },
+ "check_err": [],
+ "notify": 19
+}
