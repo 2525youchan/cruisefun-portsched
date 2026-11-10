@@ -1,734 +1,19 @@
 {
- "imported": "2026-11-04 22:16",
+ "imported": "2026-11-11 04:13",
  "months": [],
  "rows": [
-  {
-   "date": "2026-11-01",
-   "end": "2026-11-02",
-   "port": "大阪港",
-   "ship": "セレブリティ・ミレニアム",
-   "in": "07:00",
-   "out": "04:00",
-   "berth": "天保山岸壁",
-   "source_title": "大阪港振興協会「客船入港予定」",
-   "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "博多港",
-   "ship": "飛鳥Ⅱ",
-   "in": "08:30",
-   "out": "12:00",
-   "berth": "中央5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-03",
-   "port": "大阪港",
-   "ship": "セブンシーズ・エクスプローラー",
-   "in": "10:30",
-   "out": "18:00",
-   "berth": "天保山岸壁",
-   "source_title": "大阪港振興協会「客船入港予定」",
-   "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "広島港",
-   "ship": "ルミナーラ",
-   "in": "08:00",
-   "out": "18:00",
-   "berth": "宇品外貿第5バース",
-   "source_title": "広島県「広島港客船入港予定」",
-   "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "新潟港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "東港 中央ふ頭",
-   "source_title": "新潟県「クルーズ船寄港予定」",
-   "source_url": "https://www.pref.niigata.lg.jp/site/kowanshinko/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "横浜港",
-   "ship": "三井オーシャンサクラ",
-   "in": "09:00",
-   "out": "17:00",
-   "berth": "新港",
-   "source_title": "横浜市「横浜港 客船入港予定」",
-   "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-26"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "神戸港",
-   "ship": "セレブリティ・ミレニアム",
-   "in": "06:30",
-   "out": "17:00",
-   "berth": "S-4Q1/2",
-   "source_title": "神戸観光局「客船入港予定」",
-   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "秋田港",
-   "ship": "ノルウェージャン・ジェイド",
-   "in": "07:00",
-   "out": "17:00",
-   "berth": "",
-   "source_title": "秋田県「クルーズ船寄港予定」",
-   "source_url": "https://www.pref.akita.lg.jp/pages/genre/95116",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-20"
-  },
-  {
-   "date": "2026-11-02",
-   "end": "2026-11-02",
-   "port": "鹿児島港",
-   "ship": "シルバー・ムーン",
-   "in": "12:00",
-   "out": "19:00",
-   "berth": "マリンポートかごしま",
-   "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
-   "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "博多港",
-   "ship": "飛鳥Ⅱ",
-   "in": "07:30",
-   "out": "17:00",
-   "berth": "中央5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "博多港",
-   "ship": "ルミナーラ",
-   "in": "08:30",
-   "out": "21:00",
-   "berth": "箱崎5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "広島港",
-   "ship": "スター・シーカー",
-   "in": "10:00",
-   "out": "19:00",
-   "berth": "宇品外貿第5バース",
-   "source_title": "広島県「広島港客船入港予定」",
-   "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "東京港",
-   "ship": "MSCベリッシマ",
-   "in": "05:30",
-   "out": "19:00",
-   "berth": "東京国際クルーズターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "東京港",
-   "ship": "シーボーン・アンコール",
-   "in": "07:00",
-   "out": "19:00",
-   "berth": "晴海客船ターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "酒田港",
-   "ship": "ノルウェージャン・ジェイド",
-   "in": "07:00",
-   "out": "17:00",
-   "berth": "酒田北港古湊ふ頭",
-   "source_title": "酒田市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.sakata.lg.jp/sangyo/kotsu/kouwan/shoko0320191023.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-28"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "金沢港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "無量寺",
-   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
-   "source_url": "https://www.k-port.jp/cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-21"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "長崎港",
-   "ship": "シルバー・ムーン",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "松が枝",
-   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
-   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
-  },
-  {
-   "date": "2026-11-03",
-   "end": "2026-11-03",
-   "port": "高知新港",
-   "ship": "セレブリティ・ミレニアム",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "",
-   "source_title": "高知県「高知県のクルーズ客船寄港予定」",
-   "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "博多港",
-   "ship": "ウエステルダム",
-   "in": "07:15",
-   "out": "18:00",
-   "berth": "中央5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "境港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "07:00",
-   "out": "16:00",
-   "berth": "",
-   "source_title": "境夢みなとターミナル「客船寄港予定」",
-   "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "横浜港",
-   "ship": "飛鳥Ⅲ",
-   "in": "09:00",
-   "out": "17:00",
-   "berth": "大さん橋",
-   "source_title": "横浜市「横浜港 客船入港予定」",
-   "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-26"
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "清水港",
-   "ship": "シーボーン・アンコール",
-   "in": "08:00",
-   "out": "18:00",
-   "berth": "",
-   "source_title": "清水港客船誘致委員会「客船寄港予定」",
-   "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-28"
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "那覇港",
-   "ship": "スター・ナビゲーター",
-   "in": "15:00",
-   "out": "23:59",
-   "berth": "泊8号",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-04",
-   "end": "2026-11-04",
-   "port": "金沢港",
-   "ship": "ノルウェージャン・ジェイド",
-   "in": "07:00",
-   "out": "15:00",
-   "berth": "無量寺",
-   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
-   "source_url": "https://www.k-port.jp/cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-21"
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "佐世保港",
-   "ship": "ルミナーラ",
-   "in": "07:50",
-   "out": "18:00",
-   "berth": "三浦",
-   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
-   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-22"
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "佐渡島・両津港",
-   "ship": "飛鳥Ⅱ",
-   "in": "07:30",
-   "out": "16:00",
-   "berth": "錨泊",
-   "source_title": "新潟県「クルーズ船寄港予定」",
-   "source_url": "https://www.pref.niigata.lg.jp/site/kowanshinko/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "函館港",
-   "ship": "MSCベリッシマ",
-   "in": "07:30",
-   "out": "18:30",
-   "berth": "港A",
-   "source_title": "函館市「クルーズ客船入港予定」",
-   "source_url": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "大阪港",
-   "ship": "スター・シーカー",
-   "in": "00:30",
-   "out": "17:00",
-   "berth": "天保山岸壁",
-   "source_title": "大阪港振興協会「客船入港予定」",
-   "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "東京港",
-   "ship": "三井オーシャンサクラ",
-   "in": "11:00",
-   "out": "19:00",
-   "berth": "晴海客船ターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "石垣港",
-   "ship": "スター・ナビゲーター",
-   "in": "14:00",
-   "out": "23:00",
-   "berth": "石垣岸壁",
-   "source_title": "石垣市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "那覇港",
-   "ship": "セレブリティ・ミレニアム",
-   "in": "08:00",
-   "out": "20:00",
-   "berth": "第2CB",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-05",
-   "end": "2026-11-05",
-   "port": "那覇港",
-   "ship": "セブンシーズ・エクスプローラー",
-   "in": "09:00",
-   "out": "17:30",
-   "berth": "泊8号",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "佐世保港",
-   "ship": "イースタンビーナス",
-   "in": "08:50",
-   "out": "18:00",
-   "berth": "三浦",
-   "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
-   "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-22"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "八戸港",
-   "ship": "飛鳥Ⅲ",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "八太郎P岸壁",
-   "source_title": "青森県「クルーズ船寄港予定」",
-   "source_url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-30"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "博多港",
-   "ship": "アドラ・マジック・シティ",
-   "in": "12:00",
-   "out": "22:00",
-   "berth": "中央5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "石垣港",
-   "ship": "セブンシーズ・エクスプローラー",
-   "in": "11:00",
-   "out": "19:00",
-   "berth": "石垣岸壁",
-   "source_title": "石垣市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "神戸港",
-   "ship": "ウエステルダム",
-   "in": "06:30",
-   "out": "23:00",
-   "berth": "S-4Q1/2",
-   "source_title": "神戸観光局「客船入港予定」",
-   "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "酒田港",
-   "ship": "MSCベリッシマ",
-   "in": "08:30",
-   "out": "17:00",
-   "berth": "酒田北港古湊ふ頭",
-   "source_title": "酒田市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.sakata.lg.jp/sangyo/kotsu/kouwan/shoko0320191023.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-28"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "長崎港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "07:00",
-   "out": "16:00",
-   "berth": "松が枝",
-   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
-   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "青森港",
-   "ship": "飛鳥Ⅱ",
-   "in": "09:00",
-   "out": "16:00",
-   "berth": "新中央埠頭",
-   "source_title": "青森県「クルーズ船寄港予定」",
-   "source_url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-30"
-  },
-  {
-   "date": "2026-11-06",
-   "end": "2026-11-06",
-   "port": "鹿児島港",
-   "ship": "ルミナーラ",
-   "in": "08:00",
-   "out": "14:00",
-   "berth": "北ふ頭",
-   "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
-   "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "広島港",
-   "ship": "ノルウェージャン・ジェイド",
-   "in": "05:30",
-   "out": "19:00",
-   "berth": "宇品外貿第5バース",
-   "source_title": "広島県「広島港客船入港予定」",
-   "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "東京港",
-   "ship": "三井オーシャンサクラ",
-   "in": "11:00",
-   "out": "19:00",
-   "berth": "晴海客船ターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "石垣港",
-   "ship": "スター・ナビゲーター",
-   "in": "10:00",
-   "out": "20:00",
-   "berth": "石垣岸壁",
-   "source_title": "石垣市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "金沢港",
-   "ship": "MSCベリッシマ",
-   "in": "09:00",
-   "out": "19:00",
-   "berth": "大浜",
-   "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
-   "source_url": "https://www.k-port.jp/cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-21"
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "高知新港",
-   "ship": "シーボーン・アンコール",
-   "in": "08:00",
-   "out": "17:00",
-   "berth": "",
-   "source_title": "高知県「高知県のクルーズ客船寄港予定」",
-   "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-07",
-   "end": "2026-11-07",
-   "port": "鹿児島港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "09:00",
-   "out": "18:00",
-   "berth": "マリンポートかごしま",
-   "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
-   "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "別府港",
-   "ship": "シーボーン・アンコール",
-   "in": "",
-   "out": "",
-   "berth": "第4ふ頭",
-   "source_title": "大分県 別府土木事務所「別府港 クルーズ船等 入港予定」",
-   "source_url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-30"
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "博多港",
-   "ship": "イースタンビーナス",
-   "in": "08:30",
-   "out": "18:00",
-   "berth": "中央5岸",
-   "source_title": "福岡市「博多港クルーズ船寄港予定」",
-   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "東京港",
-   "ship": "ルミナーラ",
-   "in": "08:00",
-   "out": "19:00",
-   "berth": "晴海客船ターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "東京港",
-   "ship": "ウエステルダム",
-   "in": "08:00",
-   "out": "19:00",
-   "berth": "東京国際クルーズターミナル",
-   "source_title": "東京都港湾局「クルーズ客船入港予定」",
-   "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "横浜港",
-   "ship": "飛鳥Ⅲ",
-   "in": "09:00",
-   "out": "17:00",
-   "berth": "大さん橋",
-   "source_title": "横浜市「横浜港 客船入港予定」",
-   "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-26"
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "油津港",
-   "ship": "ダイヤモンド・プリンセス",
-   "in": "08:00",
-   "out": "18:00",
-   "berth": "",
-   "source_title": "宮崎県「油津港 クルーズ船寄港スケジュール」",
-   "source_url": "https://www.pref.miyazaki.lg.jp/kowan/kurashi/shakaikiban/m-port/cruise/20251212151322.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-14"
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "那覇港",
-   "ship": "スター・シーカー",
-   "in": "09:00",
-   "out": "17:00",
-   "berth": "泊8号",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
   {
    "date": "2026-11-08",
    "end": "2026-11-09",
    "port": "那覇港",
    "ship": "スペクトラム・オブ・ザ・シーズ",
-   "in": "11:30",
+   "in": "11:00",
    "out": "14:00",
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
-  },
-  {
-   "date": "2026-11-08",
-   "end": "2026-11-08",
-   "port": "高知新港",
-   "ship": "ノルウェージャン・ジェイド",
-   "in": "09:00",
-   "out": "18:00",
-   "berth": "",
-   "source_title": "高知県「高知県のクルーズ客船寄港予定」",
-   "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-04"
   },
   {
    "date": "2026-11-09",
@@ -740,21 +25,8 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
-  },
-  {
-   "date": "2026-11-09",
-   "end": "2026-11-09",
-   "port": "宮古島・平良港",
-   "ship": "スター・シーカー",
-   "in": "08:00",
-   "out": "16:00",
-   "berth": "平良岸壁",
-   "source_title": "宮古島市「クルーズ船寄港予定」",
-   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
-   "src_updated": ""
   },
   {
    "date": "2026-11-09",
@@ -766,7 +38,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -779,7 +51,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -792,7 +64,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -805,8 +77,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-10",
@@ -818,7 +90,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -831,7 +103,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -844,7 +116,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -857,8 +129,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-11-10",
@@ -870,7 +142,7 @@
    "berth": "",
    "source_title": "宮崎県「細島港 クルーズ船寄港スケジュール」",
    "source_url": "https://www.pref.miyazaki.lg.jp/kowan/kurashi/shakaikiban/m-port/cruise/20251212151322.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-14"
   },
   {
@@ -883,8 +155,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-11",
@@ -896,8 +168,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-11",
@@ -909,7 +181,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -922,7 +194,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -935,7 +207,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -948,7 +220,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -961,8 +233,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-12",
@@ -974,7 +246,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -987,7 +259,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1000,7 +272,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1013,7 +285,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1026,7 +298,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1039,8 +311,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-12",
@@ -1052,8 +324,8 @@
    "berth": "出島",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-13",
@@ -1065,7 +337,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1078,7 +350,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1091,7 +363,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -1104,7 +376,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1117,7 +389,7 @@
    "berth": "新中央埠頭",
    "source_title": "青森県「クルーズ船寄港予定」",
    "source_url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-30"
   },
   {
@@ -1130,21 +402,21 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-14",
    "end": "2026-11-14",
    "port": "博多港",
    "ship": "ウエステルダム",
-   "in": "07:00",
+   "in": "06:30",
    "out": "18:00",
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-14",
@@ -1156,7 +428,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1169,7 +441,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1195,8 +467,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-15",
@@ -1208,7 +480,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -1221,7 +493,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1234,8 +506,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-11-15",
@@ -1247,7 +519,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1260,8 +532,21 @@
    "berth": "無量寺",
    "source_title": "金沢港振興協会「クルーズ客船寄港予定」",
    "source_url": "https://www.k-port.jp/cruise/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-21"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-08"
+  },
+  {
+   "date": "2026-11-16",
+   "end": "2026-11-16",
+   "port": "博多港",
+   "ship": "ドリーム",
+   "in": "12:00",
+   "out": "22:00",
+   "berth": "中央5岸",
+   "source_title": "福岡市「博多港クルーズ船寄港予定」",
+   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-16",
@@ -1273,7 +558,7 @@
    "berth": "",
    "source_title": "境夢みなとターミナル「客船寄港予定」",
    "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-01"
   },
   {
@@ -1286,7 +571,7 @@
    "berth": "",
    "source_title": "宮崎県「細島港 クルーズ船寄港スケジュール」",
    "source_url": "https://www.pref.miyazaki.lg.jp/kowan/kurashi/shakaikiban/m-port/cruise/20251212151322.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-14"
   },
   {
@@ -1299,7 +584,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1312,8 +597,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-17",
@@ -1325,7 +610,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1351,8 +636,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-18",
@@ -1364,8 +649,21 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
+  },
+  {
+   "date": "2026-11-18",
+   "end": "2026-11-18",
+   "port": "博多港",
+   "ship": "ビジオ",
+   "in": "07:00",
+   "out": "15:00",
+   "berth": "中央5岸",
+   "source_title": "福岡市「博多港クルーズ船寄港予定」",
+   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-18",
@@ -1377,7 +675,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1390,8 +688,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-18",
@@ -1403,8 +701,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-19",
@@ -1416,7 +714,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -1429,7 +727,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1442,7 +740,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1455,7 +753,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1468,8 +766,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-19",
@@ -1481,8 +779,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-20",
@@ -1494,8 +792,21 @@
    "berth": "第4ふ頭",
    "source_title": "大分県 別府土木事務所「別府港 クルーズ船等 入港予定」",
    "source_url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-30"
+  },
+  {
+   "date": "2026-11-20",
+   "end": "2026-11-20",
+   "port": "博多港",
+   "ship": "ドリーム",
+   "in": "12:00",
+   "out": "22:00",
+   "berth": "中央5岸",
+   "source_title": "福岡市「博多港クルーズ船寄港予定」",
+   "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-21",
@@ -1507,7 +818,7 @@
    "berth": "第4ふ頭",
    "source_title": "大分県 別府土木事務所「別府港 クルーズ船等 入港予定」",
    "source_url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-30"
   },
   {
@@ -1520,7 +831,7 @@
    "berth": "赤石",
    "source_title": "徳島県「徳島小松島港 クルーズ客船寄港予定」",
    "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kendozukuri/kowan/5034248/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-09-02"
   },
   {
@@ -1533,7 +844,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1546,7 +857,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -1559,7 +870,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1572,7 +883,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1585,7 +896,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1598,7 +909,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1611,7 +922,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1624,8 +935,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-23",
@@ -1637,8 +948,8 @@
    "berth": "出島",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-24",
@@ -1650,7 +961,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -1663,7 +974,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1676,8 +987,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-25",
@@ -1689,7 +1000,7 @@
    "berth": "",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1702,7 +1013,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1715,7 +1026,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1728,8 +1039,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-25",
@@ -1741,8 +1052,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-26",
@@ -1754,7 +1065,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1767,7 +1078,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1780,7 +1091,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1793,8 +1104,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-26",
@@ -1806,7 +1117,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1819,8 +1130,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-27",
@@ -1832,7 +1143,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -1845,7 +1156,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1858,8 +1169,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-27",
@@ -1871,8 +1182,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-28",
@@ -1884,7 +1195,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1897,7 +1208,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -1910,8 +1221,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-11-28",
@@ -1923,8 +1234,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-11-29",
@@ -1936,7 +1247,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1949,7 +1260,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -1962,7 +1273,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -1975,7 +1286,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -1988,7 +1299,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2001,7 +1312,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2014,7 +1325,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -2027,8 +1338,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-02",
@@ -2040,7 +1351,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2053,7 +1364,7 @@
    "berth": "新港",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2066,8 +1377,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-02",
@@ -2079,7 +1390,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2092,7 +1403,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2105,8 +1416,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-03",
@@ -2118,7 +1429,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2131,7 +1442,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2144,7 +1455,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2157,7 +1468,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2170,7 +1481,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2183,8 +1494,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-05",
@@ -2196,7 +1507,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2209,7 +1520,7 @@
    "berth": "",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2222,7 +1533,7 @@
    "berth": "外港第1ふ頭2号岸壁",
    "source_title": "愛媛県「クルーズ船寄港予定」",
    "source_url": "https://www.pref.ehime.jp/page/1074.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-01"
   },
   {
@@ -2235,7 +1546,7 @@
    "berth": "新港",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2248,7 +1559,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2261,7 +1572,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2274,7 +1585,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2287,8 +1598,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-07",
@@ -2300,7 +1611,7 @@
    "berth": "",
    "source_title": "境夢みなとターミナル「客船寄港予定」",
    "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-01"
   },
   {
@@ -2313,7 +1624,7 @@
    "berth": "新港",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2326,7 +1637,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2339,8 +1650,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-07",
@@ -2352,7 +1663,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2365,8 +1676,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-08",
@@ -2378,7 +1689,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2391,7 +1702,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2404,7 +1715,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2417,7 +1728,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2430,7 +1741,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2443,7 +1754,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2456,8 +1767,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-10",
@@ -2469,7 +1780,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2482,7 +1793,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2495,7 +1806,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -2508,7 +1819,7 @@
    "berth": "外港第1ふ頭2号岸壁",
    "source_title": "愛媛県「クルーズ船寄港予定」",
    "source_url": "https://www.pref.ehime.jp/page/1074.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-01"
   },
   {
@@ -2521,7 +1832,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2534,7 +1845,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2547,8 +1858,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-12",
@@ -2560,7 +1871,7 @@
    "berth": "",
    "source_title": "境夢みなとターミナル「客船寄港予定」",
    "source_url": "https://www.sakai-tottori.jp/archives/xo_event_cat/pcs",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-01"
   },
   {
@@ -2573,7 +1884,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2586,7 +1897,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2599,7 +1910,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2607,13 +1918,13 @@
    "end": "2026-12-12",
    "port": "鹿児島港",
    "ship": "イースタンビーナス",
-   "in": "09:00",
+   "in": "08:00",
    "out": "17:00",
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-12-13",
@@ -2625,8 +1936,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-13",
@@ -2638,7 +1949,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2651,7 +1962,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2664,7 +1975,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2677,8 +1988,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-14",
@@ -2690,7 +2001,7 @@
    "berth": "赤石",
    "source_title": "徳島県「徳島小松島港 クルーズ客船寄港予定」",
    "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kendozukuri/kowan/5034248/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-09-02"
   },
   {
@@ -2703,7 +2014,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2716,7 +2027,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2729,8 +2040,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-14",
@@ -2742,8 +2053,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-12-15",
@@ -2755,7 +2066,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2768,7 +2079,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2781,7 +2092,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2794,7 +2105,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2807,7 +2118,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2820,8 +2131,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-16",
@@ -2833,7 +2144,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2846,8 +2157,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-16",
@@ -2859,8 +2170,8 @@
    "berth": "S-4O1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-16",
@@ -2872,7 +2183,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2885,7 +2196,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2898,7 +2209,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2911,7 +2222,7 @@
    "berth": "新港",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -2924,8 +2235,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-17",
@@ -2937,7 +2248,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2950,7 +2261,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -2963,7 +2274,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -2976,7 +2287,7 @@
    "berth": "第4ふ頭",
    "source_title": "大分県 別府土木事務所「別府港 クルーズ船等 入港予定」",
    "source_url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-30"
   },
   {
@@ -2989,8 +2300,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-19",
@@ -3002,7 +2313,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3015,7 +2326,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3028,7 +2339,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3041,7 +2352,7 @@
    "berth": "第4ふ頭",
    "source_title": "大分県 別府土木事務所「別府港 クルーズ船等 入港予定」",
    "source_url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-30"
   },
   {
@@ -3054,7 +2365,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3067,7 +2378,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -3080,7 +2391,7 @@
    "berth": "浦頭",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -3093,8 +2404,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-21",
@@ -3106,7 +2417,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3119,7 +2430,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3132,7 +2443,7 @@
    "berth": "金磯",
    "source_title": "徳島県「徳島小松島港 クルーズ客船寄港予定」",
    "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kendozukuri/kowan/5034248/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-09-02"
   },
   {
@@ -3145,7 +2456,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3158,7 +2469,7 @@
    "berth": "三浦",
    "source_title": "長崎県観光連盟「佐世保港 クルーズ客船寄港予定」",
    "source_url": "https://www.nagasaki-tabinet.com/houjin/report/cruise-achievement/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-22"
   },
   {
@@ -3171,8 +2482,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-23",
@@ -3184,7 +2495,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3197,7 +2508,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -3210,7 +2521,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3223,8 +2534,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-23",
@@ -3236,8 +2547,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-24",
@@ -3249,7 +2560,7 @@
    "berth": "",
    "source_title": "清水港客船誘致委員会「客船寄港予定」",
    "source_url": "https://www.shimizu-port.jp/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-28"
   },
   {
@@ -3262,7 +2573,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3275,7 +2586,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3288,8 +2599,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-25",
@@ -3301,8 +2612,8 @@
    "berth": "中央5岸",
    "source_title": "福岡市「博多港クルーズ船寄港予定」",
    "source_url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-11-01"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-25",
@@ -3314,7 +2625,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3327,7 +2638,7 @@
    "berth": "新港",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -3340,8 +2651,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-25",
@@ -3353,8 +2664,8 @@
    "berth": "マリンポートかごしま",
    "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
    "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-08"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2026-12-26",
@@ -3366,7 +2677,7 @@
    "berth": "宇品外貿第5バース",
    "source_title": "広島県「広島港客船入港予定」",
    "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/221/cruise-joho.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3379,7 +2690,7 @@
    "berth": "大さん橋",
    "source_title": "横浜市「横浜港 客船入港予定」",
    "source_url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-10-26"
   },
   {
@@ -3392,7 +2703,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3405,8 +2716,8 @@
    "berth": "NAKA-BC",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-26",
@@ -3418,8 +2729,8 @@
    "berth": "S-4Q1/2",
    "source_title": "神戸観光局「客船入港予定」",
    "source_url": "https://www.kobe-meriken.or.jp/terminal/eta/",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-17"
+   "checked": "2026-11-11",
+   "src_updated": ""
   },
   {
    "date": "2026-12-26",
@@ -3431,7 +2742,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3444,7 +2755,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3457,7 +2768,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3470,8 +2781,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-29",
@@ -3483,7 +2794,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3496,7 +2807,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3519,11 +2830,24 @@
    "ship": "スター・ナビゲーター",
    "in": "08:00",
    "out": "20:00",
-   "berth": "第2CB",
+   "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
+  },
+  {
+   "date": "2026-12-29",
+   "end": "2026-12-29",
+   "port": "長崎港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "08:00",
+   "out": "20:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2026-12-30",
@@ -3535,7 +2859,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3548,7 +2872,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3561,7 +2885,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3574,7 +2898,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3587,7 +2911,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3600,7 +2924,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3613,8 +2937,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-01-02",
@@ -3626,7 +2950,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3639,7 +2963,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3652,8 +2976,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-01-03",
@@ -3665,7 +2989,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3678,7 +3002,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3691,7 +3015,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3704,7 +3028,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3717,7 +3041,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3743,7 +3067,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3756,7 +3080,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3769,8 +3093,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-01-06",
@@ -3782,7 +3106,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3795,7 +3119,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3821,7 +3145,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3834,7 +3158,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3847,8 +3171,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-01-08",
@@ -3860,7 +3184,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3873,7 +3197,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3886,7 +3210,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3899,7 +3223,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3912,7 +3236,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -3925,7 +3249,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3938,7 +3262,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3951,7 +3275,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3964,7 +3288,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -3977,7 +3301,7 @@
    "berth": "天保山岸壁",
    "source_title": "大阪港振興協会「客船入港予定」",
    "source_url": "https://www.oppa.or.jp/calender.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -4003,7 +3327,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4016,7 +3340,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4042,7 +3366,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4055,7 +3379,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4068,7 +3392,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4081,8 +3405,21 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
+  },
+  {
+   "date": "2027-01-15",
+   "end": "2027-01-15",
+   "port": "鹿児島港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "08:00",
+   "out": "19:00",
+   "berth": "マリンポート",
+   "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
+   "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2027-01-16",
@@ -4094,20 +3431,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
-   "src_updated": ""
-  },
-  {
-   "date": "2027-01-16",
-   "end": "2027-01-16",
-   "port": "那覇港",
-   "ship": "スペクトラム・オブ・ザ・シーズ",
-   "in": "07:00",
-   "out": "17:00",
-   "berth": "第2CB",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4120,7 +3444,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4133,7 +3457,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4146,7 +3470,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4159,7 +3483,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4172,7 +3496,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4185,7 +3509,7 @@
    "berth": "",
    "source_title": "高知県「高知県のクルーズ客船寄港予定」",
    "source_url": "https://www.pref.kochi.lg.jp/doc/kochi_cruise/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": "2026-11-04"
   },
   {
@@ -4211,7 +3535,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4224,7 +3548,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4237,8 +3561,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-01-22",
@@ -4250,7 +3574,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4263,7 +3587,7 @@
    "berth": "東京国際クルーズターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4276,7 +3600,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4289,8 +3613,21 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
+  },
+  {
+   "date": "2027-01-25",
+   "end": "2027-01-25",
+   "port": "鹿児島港",
+   "ship": "サファイア・プリンセス",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "マリンポート",
+   "source_title": "鹿児島県「鹿児島港クルーズ船寄港予定」",
+   "source_url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/cruising/kagoshimakour8yotei.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-06"
   },
   {
    "date": "2027-01-26",
@@ -4302,7 +3639,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4341,7 +3678,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4354,7 +3691,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4367,7 +3704,7 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4380,7 +3717,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4393,7 +3730,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4406,7 +3743,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4419,7 +3756,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4432,8 +3769,8 @@
    "berth": "松が枝",
    "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
    "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
-   "checked": "2026-11-04",
-   "src_updated": "2026-10-27"
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-02-01",
@@ -4445,7 +3782,7 @@
    "berth": "晴海客船ターミナル",
    "source_title": "東京都港湾局「クルーズ客船入港予定」",
    "source_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/cruise",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4458,7 +3795,7 @@
    "berth": "石垣岸壁",
    "source_title": "石垣市「クルーズ船寄港予定」",
    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4484,7 +3821,7 @@
    "berth": "泊8号",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4497,7 +3834,20 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-03",
+   "end": "2027-02-03",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4516,15 +3866,15 @@
   {
    "date": "2027-02-03",
    "end": "2027-02-03",
-   "port": "那覇港",
-   "ship": "スペクトラム・オブ・ザ・シーズ",
-   "in": "07:00",
+   "port": "長崎港",
+   "ship": "アドラ・マジック・シティ",
+   "in": "08:00",
    "out": "19:00",
-   "berth": "第2CB",
-   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
-   "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
-   "src_updated": ""
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   },
   {
    "date": "2027-02-04",
@@ -4536,7 +3886,7 @@
    "berth": "平良岸壁",
    "source_title": "宮古島市「クルーズ船寄港予定」",
    "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
   },
   {
@@ -4549,8 +3899,164 @@
    "berth": "第2CB",
    "source_title": "那覇港管理組合「クルーズ船寄港予定」",
    "source_url": "https://nahaport.jp/users/kyakusen/",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "src_updated": ""
+  },
+  {
+   "date": "2027-02-05",
+   "end": "2027-02-05",
+   "port": "那覇港",
+   "ship": "三井オーシャンサクラ",
+   "in": "13:30",
+   "out": "21:30",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-05",
+   "end": "2027-02-05",
+   "port": "長崎港",
+   "ship": "ドリーム",
+   "in": "12:00",
+   "out": "22:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
+  },
+  {
+   "date": "2027-02-06",
+   "end": "2027-02-06",
+   "port": "石垣港",
+   "ship": "スター・ナビゲーター",
+   "in": "10:00",
+   "out": "19:00",
+   "berth": "石垣岸壁",
+   "source_title": "石垣市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-07",
+   "end": "2027-02-07",
+   "port": "那覇港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-08",
+   "end": "2027-02-08",
+   "port": "宮古島・平良港",
+   "ship": "スター・ナビゲーター",
+   "in": "09:00",
+   "out": "18:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-08",
+   "end": "2027-02-08",
+   "port": "那覇港",
+   "ship": "アドラ・メディタラニア",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-09",
+   "end": "2027-02-09",
+   "port": "宮古島・平良港",
+   "ship": "アドラ・メディタラニア",
+   "in": "08:00",
+   "out": "17:00",
+   "berth": "平良岸壁",
+   "source_title": "宮古島市「クルーズ船寄港予定」",
+   "source_url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-09",
+   "end": "2027-02-09",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "in": "07:00",
+   "out": "16:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-09",
+   "end": "2027-02-09",
+   "port": "長崎港",
+   "ship": "ドリーム",
+   "in": "12:00",
+   "out": "22:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
+  },
+  {
+   "date": "2027-02-11",
+   "end": "2027-02-11",
+   "port": "那覇港",
+   "ship": "REGATTA",
+   "in": "08:30",
+   "out": "19:00",
+   "berth": "泊8号",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-11",
+   "end": "2027-02-11",
+   "port": "那覇港",
+   "ship": "スター・ナビゲーター",
+   "in": "12:00",
+   "out": "21:00",
+   "berth": "第2CB",
+   "source_title": "那覇港管理組合「クルーズ船寄港予定」",
+   "source_url": "https://nahaport.jp/users/kyakusen/",
+   "checked": "2026-11-11",
+   "src_updated": ""
+  },
+  {
+   "date": "2027-02-11",
+   "end": "2027-02-11",
+   "port": "長崎港",
+   "ship": "スペクトラム・オブ・ザ・シーズ",
+   "in": "07:00",
+   "out": "19:00",
+   "berth": "松が枝",
+   "source_title": "長崎県「長崎港クルーズ客船寄港実績および予定」",
+   "source_url": "https://nagasaki-port.jp/cruiseschedule.html",
+   "checked": "2026-11-11",
+   "src_updated": "2026-11-10"
   }
  ]
 }
